@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="folkSong_1767" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">[Könnyű a németnek …]</title>
+				<respStmt>
+					<resp>ELTE Népdalkorpusz conversion</resp>
+					<persName>
+						<surname>Horváth</surname>
+						<forename>Péter</forename>
+					</persName>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">20</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTE Népdalkorpusz</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>[Könnyű a németnek …]</title>
+					<bibl type="digitalEdition">
+						<title>Magyar népdalok</title>
+						<respStmt>
+							<resp>editing and selection</resp>
+							<persName>
+								<surname>Ortutay</surname>
+								<forename>Gyula</forename>
+								<ref target="http://viaf.org/viaf/39752542"/>
+							</persName>
+							<persName>
+								<surname>Katona</surname>
+								<forename>Imre</forename>
+								<ref target="http://viaf.org/viaf/42247938"/>
+							</persName>
+						</respStmt>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Neumann Kht.</publisher>
+						<date when="2000">2000</date>
+						<ref target="https://mek.oszk.hu/06200/06234"/>
+					</bibl>
+					<bibl type="printEdition">
+						<title>Magyar népdalok</title>
+						<respStmt>
+							<resp>editing and selection</resp>
+							<persName>
+								<surname>Ortutay</surname>
+								<forename>Gyula</forename>
+								<ref target="http://viaf.org/viaf/39752542"/>
+							</persName>
+							<persName>
+								<surname>Katona</surname>
+								<forename>Imre</forename>
+								<ref target="http://viaf.org/viaf/42247938"/>
+							</persName>
+						</respStmt>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Szépirodalmi Kiadó</publisher>
+						<date when="1976">1976</date>
+					</bibl>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>ELTE Népdalkorpusz - automatic annotation</p>
+			</projectDesc>
+			<classDecl>
+				<taxonomy xml:id="g">
+					<category xml:id="g.p">
+						<catDesc>poetry</catDesc>
+						<category xml:id="g.pl">
+							<catDesc>lyric poetry</catDesc>
+						</category>
+						<category xml:id="g.pn">
+							<catDesc>narrative poetry</catDesc>
+						</category>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textClass>
+				<catRef target="#g.p"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-02-14">level1</change>
+			<change when="2022-02-14">level2</change>
+			<change when="2022-02-14">level3</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<head>[Könnyű a németnek …]</head>
+				<lg rhyme="abccb" xml:id="lg1">
+					<l n="6" real="110110" xml:id="l1">
+						<w lemma="könnyű" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="könny[/N]=könny+ű[_Adjz:Ú/Adj]=ű+[Nom]=" xml:id="w1">Könnyű</w>
+						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w2">a</w>
+						<w lemma="német" msd="Case=Dat|Degree=Pos|Number=Sing" pos="ADJ" type="német[/Adj|nat]=német+nek[Dat]=nek" xml:id="w3">németnek</w>
+					</l>
+					<l n="6" real="011110" xml:id="l2">
+						<w lemma="adó" msd="Case=Acc|Number=Sing" pos="NOUN" type="adó[/N]=adó+t[Acc]=t" xml:id="w4">Adót</w>
+						<w lemma="egzekvál" msd="VerbForm=Inf|Voice=Act" pos="VERB" type="egzekvál[/V]=egzekvál+ni[Inf]=ni" xml:id="w5">egzekválni</w>
+						<pc join="left" pos="PUNCT" xml:id="pc1">;</pc>
+					</l>
+					<l n="6" real="010010" xml:id="l3">
+						<w lemma="nehéz" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="nehéz[/Adj]=nehéz+[Nom]=" xml:id="w6">Nehéz</w>
+						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w7">a</w>
+						<w lemma="magyar" msd="Case=Dat|Degree=Pos|Number=Sing" pos="ADJ" type="magyar[/Adj|nat]=magyar+nak[Dat]=nak" xml:id="w8">magyarnak</w>
+						<pc join="left" pos="PUNCT" xml:id="pc2">,</pc>
+					</l>
+					<l n="6" real="001010" xml:id="l4">
+						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w9">A</w>
+						<w lemma="szegény" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="szegény[/Adj]=szegény+[Nom]=" xml:id="w10">szegény</w>
+						<w lemma="magyar" msd="Case=Dat|Degree=Pos|Number=Sing" pos="ADJ" type="magyar[/Adj|nat]=magyar+nak[Dat]=nak" xml:id="w11">magyarnak</w>
+					</l>
+					<l n="6" real="110110" xml:id="l5">
+						<w lemma="Kossuth" msd="Case=Nom|Number=Sing" pos="PROPN" type="Kossuth[/N]=Kossuth+[Nom]=" xml:id="w12">Kossuth</w>
+						<w lemma="Lajos" msd="Case=Acc|Number=Sing" pos="PROPN" type="Lajos[/N]=Lajos+t[Acc]=t" xml:id="w13">Lajost</w>
+						<w lemma="vár" msd="VerbForm=Inf|Voice=Act" pos="VERB" type="vár[/V]=vár+ni[Inf]=ni" xml:id="w14">várni</w>
+						<pc join="left" pos="PUNCT" xml:id="pc3">.</pc>
+					</l>
+				</lg>
+				<p>Jászkisér (Szolnok)</p>
+			</div>
+			<spanGrp type="phonStructures">
+				<span subtype="2" target="#w1" type="high">cfccF</span>
+				<span subtype="1" target="#w2" type="low">b</span>
+				<span subtype="3" target="#w3" type="high">cFcfccfc</span>
+				<span subtype="2" target="#w4" type="low">bcBc</span>
+				<span subtype="4" target="#w5" type="mixed">fccfccBccf</span>
+				<span subtype="2" target="#w6" type="high">cfcFc</span>
+				<span subtype="1" target="#w7" type="low">b</span>
+				<span subtype="3" target="#w8" type="low">cbcbccbc</span>
+				<span subtype="1" target="#w9" type="low">b</span>
+				<span subtype="2" target="#w10" type="high">cfcFc</span>
+				<span subtype="3" target="#w11" type="low">cbcbccbc</span>
+				<span subtype="2" target="#w12" type="low">cbccbc</span>
+				<span subtype="2" target="#w13" type="low">cbcbcc</span>
+				<span subtype="2" target="#w14" type="mixed">cBccf</span>
+			</spanGrp>
+			<linkGrp type="rhymePairs">
+				<link target="#w5 #w14"/>
+				<link target="#w8 #w11"/>
+			</linkGrp>
+			<spanGrp type="alliterations"/>
+		</body>
+	</text>
+</TEI>

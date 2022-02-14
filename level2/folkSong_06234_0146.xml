@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="folkSong_0146" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">[Hetfén heverni, …]</title>
+				<respStmt>
+					<resp>ELTE Népdalkorpusz conversion</resp>
+					<persName>
+						<surname>Horváth</surname>
+						<forename>Péter</forename>
+					</persName>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">23</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTE Népdalkorpusz</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>[Hetfén heverni, …]</title>
+					<bibl type="digitalEdition">
+						<title>Magyar népdalok</title>
+						<respStmt>
+							<resp>editing and selection</resp>
+							<persName>
+								<surname>Ortutay</surname>
+								<forename>Gyula</forename>
+								<ref target="http://viaf.org/viaf/39752542"/>
+							</persName>
+							<persName>
+								<surname>Katona</surname>
+								<forename>Imre</forename>
+								<ref target="http://viaf.org/viaf/42247938"/>
+							</persName>
+						</respStmt>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Neumann Kht.</publisher>
+						<date when="2000">2000</date>
+						<ref target="https://mek.oszk.hu/06200/06234"/>
+					</bibl>
+					<bibl type="printEdition">
+						<title>Magyar népdalok</title>
+						<respStmt>
+							<resp>editing and selection</resp>
+							<persName>
+								<surname>Ortutay</surname>
+								<forename>Gyula</forename>
+								<ref target="http://viaf.org/viaf/39752542"/>
+							</persName>
+							<persName>
+								<surname>Katona</surname>
+								<forename>Imre</forename>
+								<ref target="http://viaf.org/viaf/42247938"/>
+							</persName>
+						</respStmt>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Szépirodalmi Kiadó</publisher>
+						<date when="1976">1976</date>
+					</bibl>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>ELTE Népdalkorpusz - automatic annotation</p>
+			</projectDesc>
+			<classDecl>
+				<taxonomy xml:id="g">
+					<category xml:id="g.p">
+						<catDesc>poetry</catDesc>
+						<category xml:id="g.pl">
+							<catDesc>lyric poetry</catDesc>
+						</category>
+						<category xml:id="g.pn">
+							<catDesc>narrative poetry</catDesc>
+						</category>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textClass>
+				<catRef target="#g.p"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-02-14">level1</change>
+			<change when="2022-02-14">level2</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<head>[Hetfén heverni, …]</head>
+				<p>A HÉT NAPJAI</p>
+				<lg xml:id="lg1">
+					<l xml:id="l1">
+						<w lemma="Hetfe" msd="Case=Ess|Degree=Pos|Number=Sing" pos="ADJ" type="no" xml:id="w1">Hetfén</w>
+						<w lemma="hever" msd="VerbForm=Inf|Voice=Act" pos="VERB" type="hever[/V]=hever+ni[Inf]=ni" xml:id="w2">heverni</w>
+						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
+					</l>
+					<l xml:id="l2">
+						<w lemma="kedd" msd="Case=Sup|Number=Sing" pos="NOUN" type="kedd[/N]=kedd+en[Supe]=en" xml:id="w3">Kedden</w>
+						<w lemma="kever" msd="VerbForm=Inf|Voice=Act" pos="VERB" type="kever[/V]=kever+ni[Inf]=ni" xml:id="w4">keverni</w>
+						<pc join="left" pos="PUNCT" xml:id="pc2">,</pc>
+					</l>
+					<l xml:id="l3">
+						<w lemma="szerda" msd="Case=Sup|Number=Sing" pos="NOUN" type="szerda[/N]=szerdá+n[Supe]=n" xml:id="w5">Szerdán</w>
+						<w lemma="szerez" msd="VerbForm=Inf|Voice=Act" pos="VERB" type="szer[/N]=szer+ez[_NVbz_Tr:z/V]=ez+ni[Inf]=ni" xml:id="w6">szerezni</w>
+						<pc join="left" pos="PUNCT" xml:id="pc3">;</pc>
+					</l>
+					<l xml:id="l4">
+						<w lemma="csütörtök" msd="Case=Sup|Number=Sing" pos="NOUN" type="csütörtök[/N]=csütörtök+ön[Supe]=ön" xml:id="w7">Csütörtökön</w>
+						<w lemma="csöbör" msd="Case=Ill|Number=Sing" pos="NOUN" type="csöbör[/N]=csöbör+be[Ill]=be" xml:id="w8">csöbörbe</w>
+						<pc join="left" pos="PUNCT" xml:id="pc4">,</pc>
+					</l>
+					<l xml:id="l5">
+						<w lemma="Péntökön" msd="Case=Nom|Number=Sing" pos="PROPN" type="no" xml:id="w9">Péntökön</w>
+						<w lemma="péntő" msd="Case=Ill|Number=Sing" pos="NOUN" type="no" xml:id="w10">péntőbe</w>
+						<pc join="left" pos="PUNCT" xml:id="pc5">,</pc>
+					</l>
+					<l xml:id="l6">
+						<w lemma="szombat" msd="Case=Sup|Number=Sing" pos="NOUN" type="szombat[/N]=szombat+on[Supe]=on" xml:id="w11">Szombaton</w>
+						<w lemma="szoba" msd="Case=Ill|Number=Sing" pos="NOUN" type="szoba[/N]=szobá+ba[Ill]=ba" xml:id="w12">szobába</w>
+						<pc join="left" pos="PUNCT" xml:id="pc6">,</pc>
+					</l>
+					<l xml:id="l7">
+						<w lemma="vasárnap" msd="Case=Nom|Number=Sing" pos="NOUN" type="vas[/N|mat]=vas+ár[/N]=ár+nap[/N]=nap+[Nom]=" xml:id="w13">Vasárnap</w>
+						<w lemma="isten" msd="Case=Nom|Number=Sing" pos="NOUN" type="isten[/N]=isten+[Nom]=" xml:id="w14">Isten</w>
+						<w lemma="ház" msd="Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" type="ház[/N]=ház+a[Poss.3Sg]=á+ba[Ill]=ba" xml:id="w15">házába</w>
+						<pc join="left" pos="PUNCT" xml:id="pc7">.</pc>
+					</l>
+				</lg>
+				<p>Balatonberény (Somogy)</p>
+			</div>
+		</body>
+	</text>
+</TEI>

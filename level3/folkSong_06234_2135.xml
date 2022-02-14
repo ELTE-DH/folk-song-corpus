@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="folkSong_2135" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">[Egyet, kettőt, húzd meg! …]</title>
+				<respStmt>
+					<resp>ELTE Népdalkorpusz conversion</resp>
+					<persName>
+						<surname>Horváth</surname>
+						<forename>Péter</forename>
+					</persName>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">19</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTE Népdalkorpusz</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>[Egyet, kettőt, húzd meg! …]</title>
+					<bibl type="digitalEdition">
+						<title>Magyar népdalok</title>
+						<respStmt>
+							<resp>editing and selection</resp>
+							<persName>
+								<surname>Ortutay</surname>
+								<forename>Gyula</forename>
+								<ref target="http://viaf.org/viaf/39752542"/>
+							</persName>
+							<persName>
+								<surname>Katona</surname>
+								<forename>Imre</forename>
+								<ref target="http://viaf.org/viaf/42247938"/>
+							</persName>
+						</respStmt>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Neumann Kht.</publisher>
+						<date when="2000">2000</date>
+						<ref target="https://mek.oszk.hu/06200/06234"/>
+					</bibl>
+					<bibl type="printEdition">
+						<title>Magyar népdalok</title>
+						<respStmt>
+							<resp>editing and selection</resp>
+							<persName>
+								<surname>Ortutay</surname>
+								<forename>Gyula</forename>
+								<ref target="http://viaf.org/viaf/39752542"/>
+							</persName>
+							<persName>
+								<surname>Katona</surname>
+								<forename>Imre</forename>
+								<ref target="http://viaf.org/viaf/42247938"/>
+							</persName>
+						</respStmt>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Szépirodalmi Kiadó</publisher>
+						<date when="1976">1976</date>
+					</bibl>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>ELTE Népdalkorpusz - automatic annotation</p>
+			</projectDesc>
+			<classDecl>
+				<taxonomy xml:id="g">
+					<category xml:id="g.p">
+						<catDesc>poetry</catDesc>
+						<category xml:id="g.pl">
+							<catDesc>lyric poetry</catDesc>
+						</category>
+						<category xml:id="g.pn">
+							<catDesc>narrative poetry</catDesc>
+						</category>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textClass>
+				<catRef target="#g.p"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-02-14">level1</change>
+			<change when="2022-02-14">level2</change>
+			<change when="2022-02-14">level3</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<head>[Egyet, kettőt, húzd meg! …]</head>
+				<lg rhyme="abaac" xml:id="lg1">
+					<l n="6" real="011110" xml:id="l1">
+						<w lemma="egy" msd="Case=Acc|Number=Sing|NumType=Card" pos="NUM" type="egy[/Num]=egy+et[Acc]=et" xml:id="w1">Egyet</w>
+						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
+						<w lemma="kettő" msd="Case=Acc|Number=Sing|NumType=Card" pos="NUM" type="kettő[/Num]=kettő+t[Acc]=t" xml:id="w2">kettőt</w>
+						<pc join="left" pos="PUNCT" xml:id="pc2">,</pc>
+						<w lemma="húz" msd="Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="húz[/V]=húz+d[Sbjv.Def.2Sg]=d" xml:id="w3">húzd</w>
+						<w lemma="meg" msd="_" pos="PART" type="meg[/Prev]=meg" xml:id="w4">meg</w>
+						<pc join="left" pos="PUNCT" xml:id="pc3">!</pc>
+					</l>
+					<l n="6" real="111110" xml:id="l2">
+						<w lemma="három" msd="Case=Acc|Number=Sing|NumType=Card" pos="NUM" type="három[/Num]=hárm+at[Acc]=at" xml:id="w5">Hármat</w>
+						<pc join="left" pos="PUNCT" xml:id="pc4">,</pc>
+						<w lemma="négy" msd="Case=Acc|Number=Sing|NumType=Card" pos="NUM" type="négy[/Num]=négy+et[Acc]=et" xml:id="w6">négyet</w>
+						<pc join="left" pos="PUNCT" xml:id="pc5">,</pc>
+						<w lemma="mer" msd="Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="mer[/V]=mer+d[Sbjv.Def.2Sg]=d" xml:id="w7">merd</w>
+						<w lemma="le" msd="_" pos="ADV" type="le[/Prev]=le" xml:id="w8">le</w>
+						<pc join="left" pos="PUNCT" xml:id="pc6">!</pc>
+					</l>
+					<l n="6" real="010010" xml:id="l3">
+						<w lemma="komáromi" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="Komárom[/N]=komárom+i[_Adjz:i/Adj]=i+[Nom]=" xml:id="w9">Komáromi</w>
+						<w lemma="rév" msd="Case=Acc|Number=Sing" pos="NOUN" type="rév[/N]=rév+et[Acc]=et" xml:id="w10">révet</w>
+					</l>
+					<l n="6" real="110010" xml:id="l4">
+						<w lemma="este" msd="Case=Sub|Number=Sing" pos="NOUN" type="este[/N]=esté+re[Subl]=re" xml:id="w11">Estére</w>
+						<w lemma="elér" msd="Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="el[/Prev]=el+ér[/V]=ér+ed[Prs.Def.2Sg]=ed" xml:id="w12">eléred</w>
+						<pc join="left" pos="PUNCT" xml:id="pc7">.</pc>
+					</l>
+					<l n="3" real="001" xml:id="l5">
+						<w lemma="haja-hó" msd="_" pos="INTJ" type="no" xml:id="w13">Haja-hó</w>
+						<pc join="left" pos="PUNCT" xml:id="pc8">!</pc>
+					</l>
+				</lg>
+				<p>Nagyecsed</p>
+			</div>
+			<spanGrp type="phonStructures">
+				<span subtype="2" target="#w1" type="high">fcfc</span>
+				<span subtype="2" target="#w2" type="high">cfccFc</span>
+				<span subtype="1" target="#w3" type="low">cBcc</span>
+				<span subtype="1" target="#w4" type="high">cfc</span>
+				<span subtype="2" target="#w5" type="low">cBccbc</span>
+				<span subtype="2" target="#w6" type="high">cFcfc</span>
+				<span subtype="1" target="#w7" type="high">cfcc</span>
+				<span subtype="1" target="#w8" type="high">cf</span>
+				<span subtype="4" target="#w9" type="mixed">cbcBcbcf</span>
+				<span subtype="2" target="#w10" type="high">cFcfc</span>
+				<span subtype="3" target="#w11" type="high">fccFcf</span>
+				<span subtype="3" target="#w12" type="high">fcFcfc</span>
+				<span subtype="3" target="#w13" type="low">cbcbcB</span>
+			</spanGrp>
+			<linkGrp type="rhymePairs">
+				<link target="#w4 #w10"/>
+				<link target="#w10 #w12"/>
+			</linkGrp>
+			<spanGrp type="alliterations">
+				<span target="#w3 #w4 #w5" type="ana"/>
+				<span target="#w11 #w12" type="aa"/>
+			</spanGrp>
+		</body>
+	</text>
+</TEI>
