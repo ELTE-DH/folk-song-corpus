@@ -1,8 +1,8 @@
 
-# ELTE Poetry Corpus
+# ELTE Folk Song Corpus
 
 
-The ELTE Folk Song Corpus is a database developed by the [_Department of Digital Humanities at Eötvös Loránd University_](https://elte-dh.hu/). Currently, the corpus contains 2391 Hungarian folk songs, the sound devices of the texts and the grammatical features of words in XML format (in TEI and non-TEI XML format).
+ELTE Folk Song Corpus is a database developed by the [_Department of Digital Humanities at Eötvös Loránd University_](https://elte-dh.hu/). Currently, the corpus contains 2391 Hungarian folk songs, the sound devices of the texts and the grammatical features of words in XML format (in TEI and non-TEI XML format).
 
 ## TEI Levels
 
