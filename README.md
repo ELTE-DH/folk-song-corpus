@@ -118,7 +118,7 @@ By changing the name and the position of certain elements and attributes in leve
 
 # Citing and License
 
-If you use ELTE Folksong Corpus, please cite the following articles:
+If you use ELTE Folksong Corpus, please cite the following article:
 
 Horváth Péter – Kundráth Péter – Palkó Gábor 2022. ELTE Népdalkorpusz – magyar népdalok gépileg annotált adatbázisa. In: Tick József – Kokas Károly – Holl András (szerk.): Valós térben – Az online térért: Networkshop 31: országos konferencia. Budapest: HUNGARNET Egyesület. 276-283.
 
