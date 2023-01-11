@@ -116,7 +116,11 @@ By changing the name and the position of certain elements and attributes in leve
 - [Gábor Palkó](https://github.com/luhpeg) (design, data model)
 
 
-# License
+# Citing and License
+
+If you use ELTE Folksong Corpus, please cite the following articles:
+
+Horváth Péter – Kundráth Péter – Palkó Gábor 2022. ELTE Népdalkorpusz – magyar népdalok gépileg annotált adatbázisa. In: Tick József – Kokas Károly – Holl András (szerk.): Valós térben – Az online térért: Networkshop 31: országos konferencia. Budapest: HUNGARNET Egyesület. 276-283.
 
 The content of the repository is licensed under the [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
