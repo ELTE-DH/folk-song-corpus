@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_0039" xml:lang="hu">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">[Lackó, packó, …]</title>
+				<respStmt>
+					<resp>ELTE Népdalkorpusz conversion</resp>
+					<persName>
+						<surname>Horváth</surname>
+						<forename>Péter</forename>
+					</persName>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">15</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTE Népdalkorpusz</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>[Lackó, packó, …]</title>
+					<bibl type="digitalEdition">
+						<title>Magyar népdalok</title>
+						<respStmt>
+							<resp>editing and selection</resp>
+							<persName>
+								<surname>Ortutay</surname>
+								<forename>Gyula</forename>
+								<ref target="http://viaf.org/viaf/39752542"/>
+							</persName>
+							<persName>
+								<surname>Katona</surname>
+								<forename>Imre</forename>
+								<ref target="http://viaf.org/viaf/42247938"/>
+							</persName>
+						</respStmt>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Neumann Kht.</publisher>
+						<date when="2000">2000</date>
+						<ref target="https://mek.oszk.hu/06200/06234"/>
+					</bibl>
+					<bibl type="printEdition">
+						<title>Magyar népdalok</title>
+						<respStmt>
+							<resp>editing and selection</resp>
+							<persName>
+								<surname>Ortutay</surname>
+								<forename>Gyula</forename>
+								<ref target="http://viaf.org/viaf/39752542"/>
+							</persName>
+							<persName>
+								<surname>Katona</surname>
+								<forename>Imre</forename>
+								<ref target="http://viaf.org/viaf/42247938"/>
+							</persName>
+						</respStmt>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Szépirodalmi Kiadó</publisher>
+						<date when="1976">1976</date>
+					</bibl>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>ELTE Népdalkorpusz - automatic annotation</p>
+			</projectDesc>
+			<classDecl>
+				<taxonomy xml:id="g">
+					<category xml:id="g.p">
+						<catDesc>poetry</catDesc>
+						<category xml:id="g.pl">
+							<catDesc>lyric poetry</catDesc>
+						</category>
+						<category xml:id="g.pn">
+							<catDesc>narrative poetry</catDesc>
+						</category>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textClass>
+				<catRef target="#g.p"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-02-14">level1</change>
+			<change when="2024-01-25">level2</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<head>[Lackó, packó, …]</head>
+				<p>NÉVRECSÚFOLÓ</p>
+				<lg xml:id="lg1">
+					<l xml:id="l1">
+						<w pos="PROPN" lemma="Lackó" msd="[/N][Nom]" type="Lackó[/N]=Lackó+[Nom]=" xml:id="w1">Lackó</w>
+						<pc pos="PUNCT" join="left" xml:id="pc1">,</pc>
+						<w pos="NOUN" lemma="packó" msd="[/N][Nom]" type="no" xml:id="w2">packó</w>
+						<pc pos="PUNCT" join="left" xml:id="pc2">,</pc>
+					</l>
+					<l xml:id="l2">
+						<w pos="NOUN" lemma="pipadohány-zacskó" msd="[/N][Nom]" type="pipa[/N]=pipa+dohány[/N]=dohány+[Nom]=+-[Hyph:Hyph]=-+zacskó[/N]=zacskó+[Nom]=" xml:id="w3">Pipadohány-zacskó</w>
+						<pc pos="PUNCT" join="left" xml:id="pc3">.</pc>
+					</l>
+					<l xml:id="l3">
+						<w pos="VERB" lemma="rágyújt" msd="[/V][Pst.NDef.3Sg]" type="rá[/Prev]=rá+gyújt[/V]=gyújt+ott[Pst.NDef.3Sg]=ott" xml:id="w4">Rágyújtott</w>
+						<w pos="DET" lemma="a" msd="[/Det|Art.Def]" type="a[/Det|Art.Def]=a" xml:id="w5">a</w>
+						<w pos="NOUN" lemma="pipa" msd="[/N][Subl]" type="pipa[/N]=pipá+ra[Subl]=ra" xml:id="w6">pipára</w>
+						<pc pos="PUNCT" join="left" xml:id="pc4">,</pc>
+					</l>
+					<l xml:id="l4">
+						<w pos="VERB" lemma="leég" msd="[/V][Pst.NDef.3Sg]" type="le[/Prev]=le+ég[/V]=ég+ett[Pst.NDef.3Sg]=ett" xml:id="w7">Leégett</w>
+						<w pos="DET" lemma="a" msd="[/Det|Art.Def]" type="a[/Det|Art.Def]=a" xml:id="w8">a</w>
+						<w pos="NOUN" lemma="szakáll" msd="[/N][Poss.3Sg][Nom]" type="szak[/N]=szak+áll[/N]=áll+a[Poss.3Sg]=a+[Nom]=" xml:id="w9">szakálla</w>
+						<pc pos="PUNCT" join="left" xml:id="pc5">.</pc>
+					</l>
+				</lg>
+				<p>Mátyusföld (Nyitra)</p>
+			</div>
+		</body>
+	</text>
+</TEI>

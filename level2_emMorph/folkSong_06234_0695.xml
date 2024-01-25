@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_0695" xml:lang="hu">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">[Szegény legény, ne vegyél el gazdagot! …]</title>
+				<respStmt>
+					<resp>ELTE Népdalkorpusz conversion</resp>
+					<persName>
+						<surname>Horváth</surname>
+						<forename>Péter</forename>
+					</persName>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">32</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTE Népdalkorpusz</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>[Szegény legény, ne vegyél el gazdagot! …]</title>
+					<bibl type="digitalEdition">
+						<title>Magyar népdalok</title>
+						<respStmt>
+							<resp>editing and selection</resp>
+							<persName>
+								<surname>Ortutay</surname>
+								<forename>Gyula</forename>
+								<ref target="http://viaf.org/viaf/39752542"/>
+							</persName>
+							<persName>
+								<surname>Katona</surname>
+								<forename>Imre</forename>
+								<ref target="http://viaf.org/viaf/42247938"/>
+							</persName>
+						</respStmt>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Neumann Kht.</publisher>
+						<date when="2000">2000</date>
+						<ref target="https://mek.oszk.hu/06200/06234"/>
+					</bibl>
+					<bibl type="printEdition">
+						<title>Magyar népdalok</title>
+						<respStmt>
+							<resp>editing and selection</resp>
+							<persName>
+								<surname>Ortutay</surname>
+								<forename>Gyula</forename>
+								<ref target="http://viaf.org/viaf/39752542"/>
+							</persName>
+							<persName>
+								<surname>Katona</surname>
+								<forename>Imre</forename>
+								<ref target="http://viaf.org/viaf/42247938"/>
+							</persName>
+						</respStmt>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Szépirodalmi Kiadó</publisher>
+						<date when="1976">1976</date>
+					</bibl>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>ELTE Népdalkorpusz - automatic annotation</p>
+			</projectDesc>
+			<classDecl>
+				<taxonomy xml:id="g">
+					<category xml:id="g.p">
+						<catDesc>poetry</catDesc>
+						<category xml:id="g.pl">
+							<catDesc>lyric poetry</catDesc>
+						</category>
+						<category xml:id="g.pn">
+							<catDesc>narrative poetry</catDesc>
+						</category>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textClass>
+				<catRef target="#g.p"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-02-14">level1</change>
+			<change when="2024-01-25">level2</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<head>[Szegény legény, ne vegyél el gazdagot! …]</head>
+				<lg xml:id="lg1">
+					<l xml:id="l1">
+						<w pos="ADJ" lemma="szegény" msd="[/Adj][Nom]" type="szegény[/Adj]=szegény+[Nom]=" xml:id="w1">Szegény</w>
+						<w pos="NOUN" lemma="legény" msd="[/N][Nom]" type="legény[/N]=legény+[Nom]=" xml:id="w2">legény</w>
+						<pc pos="PUNCT" join="left" xml:id="pc1">,</pc>
+						<w pos="ADV" lemma="ne" msd="[/Adv]" type="ne[/Adv]=ne" xml:id="w3">ne</w>
+						<w pos="VERB" lemma="vesz" msd="[/V][Sbjv.NDef.2Sg]" type="vesz[/V]=ve+gyél[Sbjv.NDef.2Sg]=gyél" xml:id="w4">vegyél</w>
+						<w pos="ADV" lemma="el" msd="[/Prev]" type="el[/Prev]=el" xml:id="w5">el</w>
+						<w pos="NOUN" lemma="gazdag" msd="[/N][Acc]" type="gazdag[/N]=gazdag+ot[Acc]=ot" xml:id="w6">gazdagot</w>
+						<pc pos="PUNCT" join="left" xml:id="pc2">!</pc>
+					</l>
+					<l xml:id="l2">
+						<w pos="VERB" lemma="megharagszik" msd="[/V][Prs.NDef.3Sg]" type="meg[/Prev]=meg+haragszik[/V]=haragsz+ik[Prs.NDef.3Sg]=ik" xml:id="w7">Megharagszik</w>
+						<pc pos="PUNCT" join="left" xml:id="pc3">,</pc>
+						<w pos="VERB" lemma="kihány" msd="[/V][Prs.Def.3Sg]" type="ki[/Prev]=ki+hány[/V]=hány+ja[Prs.Def.3Sg]=ja" xml:id="w8">kihányja</w>
+						<w pos="DET" lemma="a" msd="[/Det|Art.Def]" type="a[/Det|Art.Def]=a" xml:id="w9">a</w>
+						<w pos="NOUN" lemma="ruha" msd="[/N][Poss.2Sg][Acc]" type="ruha[/N]=ruhá+d[Poss.2Sg]=d+at[Acc]=at" xml:id="w10">ruhádat</w>
+						<pc pos="PUNCT" join="left" xml:id="pc4">;</pc>
+					</l>
+					<l xml:id="l3">
+						<w pos="ADV" lemma="mindig" msd="[/Adv]" type="mindig[/Adv]=mindig" xml:id="w11">Mindig</w>
+						<w pos="ADV" lemma="csak" msd="[/Adv]" type="csak[/Adv]=csak" xml:id="w12">csak</w>
+						<w pos="PRON" lemma="az" msd="[/Det|Pro][Acc]" type="az[/Det|Pro]=az+t[Acc]=t" xml:id="w13">azt</w>
+						<w pos="VERB" lemma="hány-vet" msd="[/V][Prs.Def.3Sg]" type="hány[/V]=hány+ja[Prs.Def.3Sg]=ja+-[Hyph:Hyph]=-+vet[/V]=vet+i[Prs.Def.3Sg]=i" xml:id="w14">hányja-veti</w>
+						<w pos="NOUN" lemma="szem" msd="[/N][Poss.2Sg][Subl]" type="szem[/N]=szem+ed[Poss.2Sg]=ed+re[Subl]=re" xml:id="w15">szemedre</w>
+						<pc pos="PUNCT" join="left" xml:id="pc5">:</pc>
+					</l>
+					<l xml:id="l4">
+						<w pos="X" lemma="–" msd="[Hyph:Dash]" type="–[Hyph:Dash]=–" xml:id="w16">–</w>
+						<w pos="ADV" lemma="nem" msd="[/Adv]" type="nem[/Adv]=nem" xml:id="w17">Nem</w>
+						<w pos="VERB" lemma="hoz" msd="[/V][Pst.NDef.2Sg]" type="hoz[/V]=hoz+tál[Pst.NDef.2Sg]=tál" xml:id="w18">hoztál</w>
+						<w pos="DET" lemma="az" msd="[/Det|Art.Def]" type="az[/Det|Art.Def]=az" xml:id="w19">az</w>
+						<w pos="PRON" lemma="én" msd="[/N|Pro][1Sg][Nom]" type="én[/N|Pro]=én+[1Sg]=+[Nom]=" xml:id="w20">én</w>
+						<w pos="NOUN" lemma="ház" msd="[/N][Poss.1Sg][All]" type="ház[/N]=ház+am[Poss.1Sg]=am+hoz[All]=hoz" xml:id="w21">házamhoz</w>
+						<w pos="PRON" lemma="semmi" msd="[/N|Pro][Acc]" type="semmi[/N|Pro]=semmi+t[Acc]=t" xml:id="w22">semmit</w>
+						<w pos="ADV" lemma="se" msd="[/Adv]" type="se[/Adv]=se" xml:id="w23">se</w>
+						<pc pos="PUNCT" join="left" xml:id="pc6">.</pc>
+					</l>
+				</lg>
+				<p>Sárospatak (Zemplén)</p>
+			</div>
+		</body>
+	</text>
+</TEI>

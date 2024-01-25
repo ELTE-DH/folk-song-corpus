@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1629" xml:lang="hu">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">[Ha elmegyek katonának: kurucnak, kurucnak, …]</title>
+				<respStmt>
+					<resp>ELTE Népdalkorpusz conversion</resp>
+					<persName>
+						<surname>Horváth</surname>
+						<forename>Péter</forename>
+					</persName>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">32</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTE Népdalkorpusz</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>[Ha elmegyek katonának: kurucnak, kurucnak, …]</title>
+					<bibl type="digitalEdition">
+						<title>Magyar népdalok</title>
+						<respStmt>
+							<resp>editing and selection</resp>
+							<persName>
+								<surname>Ortutay</surname>
+								<forename>Gyula</forename>
+								<ref target="http://viaf.org/viaf/39752542"/>
+							</persName>
+							<persName>
+								<surname>Katona</surname>
+								<forename>Imre</forename>
+								<ref target="http://viaf.org/viaf/42247938"/>
+							</persName>
+						</respStmt>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Neumann Kht.</publisher>
+						<date when="2000">2000</date>
+						<ref target="https://mek.oszk.hu/06200/06234"/>
+					</bibl>
+					<bibl type="printEdition">
+						<title>Magyar népdalok</title>
+						<respStmt>
+							<resp>editing and selection</resp>
+							<persName>
+								<surname>Ortutay</surname>
+								<forename>Gyula</forename>
+								<ref target="http://viaf.org/viaf/39752542"/>
+							</persName>
+							<persName>
+								<surname>Katona</surname>
+								<forename>Imre</forename>
+								<ref target="http://viaf.org/viaf/42247938"/>
+							</persName>
+						</respStmt>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Szépirodalmi Kiadó</publisher>
+						<date when="1976">1976</date>
+					</bibl>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>ELTE Népdalkorpusz - automatic annotation</p>
+			</projectDesc>
+			<classDecl>
+				<taxonomy xml:id="g">
+					<category xml:id="g.p">
+						<catDesc>poetry</catDesc>
+						<category xml:id="g.pl">
+							<catDesc>lyric poetry</catDesc>
+						</category>
+						<category xml:id="g.pn">
+							<catDesc>narrative poetry</catDesc>
+						</category>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textClass>
+				<catRef target="#g.p"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-02-14">level1</change>
+			<change when="2024-01-25">level2</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<head>[Ha elmegyek katonának: kurucnak, kurucnak, …]</head>
+				<lg xml:id="lg1">
+					<l xml:id="l1">
+						<w pos="SCONJ" lemma="ha" msd="[/Cnj]" type="ha[/Cnj]=ha" xml:id="w1">Ha</w>
+						<w pos="VERB" lemma="elmegy" msd="[/V][Prs.NDef.1Sg]" type="el[/Prev]=el+megy[/V]=megy+ek[Prs.NDef.1Sg]=ek" xml:id="w2">elmegyek</w>
+						<w pos="NOUN" lemma="katona" msd="[/N][Dat]" type="katona[/N]=katoná+nak[Dat]=nak" xml:id="w3">katonának</w>
+						<pc pos="PUNCT" join="left" xml:id="pc1">:</pc>
+						<w pos="NOUN" lemma="kuruc" msd="[/N][Dat]" type="kuruc[/N]=kuruc+nak[Dat]=nak" xml:id="w4">kurucnak</w>
+						<pc pos="PUNCT" join="left" xml:id="pc2">,</pc>
+						<w pos="NOUN" lemma="kuruc" msd="[/N][Dat]" type="kuruc[/N]=kuruc+nak[Dat]=nak" xml:id="w5">kurucnak</w>
+						<pc pos="PUNCT" join="left" xml:id="pc3">,</pc>
+					</l>
+					<l xml:id="l2">
+						<w pos="ADJ" lemma="bal" msd="[/Adj][Nom]" type="bal[/Adj]=bal+[Nom]=" xml:id="w6">Bal</w>
+						<w pos="NOUN" lemma="ódal" msd="[/N][Subl]" type="no" xml:id="w7">ódalra</w>
+						<w pos="VERB" lemma="felköt" msd="[/V][Prs.Def.1Sg]" type="fel[/Prev]=fel+köt[/V]=köt+öm[Prs.Def.1Sg]=öm" xml:id="w8">felkötöm</w>
+						<w pos="DET" lemma="a" msd="[/Det|Art.Def]" type="a[/Det|Art.Def]=a" xml:id="w9">a</w>
+						<w pos="NOUN" lemma="kard" msd="[/N][Poss.1Sg][Acc]" type="kard[/N]=kard+om[Poss.1Sg]=om+at[Acc]=at" xml:id="w10">kardomat</w>
+						<pc pos="PUNCT" join="left" xml:id="pc4">,</pc>
+						<w pos="NOUN" lemma="kard" msd="[/N][Poss.1Sg][Acc]" type="kard[/N]=kard+om[Poss.1Sg]=om+at[Acc]=at" xml:id="w11">kardomat</w>
+						<pc pos="PUNCT" join="left" xml:id="pc5">.</pc>
+					</l>
+					<l xml:id="l3">
+						<w pos="SCONJ" lemma="ha" msd="[/Cnj]" type="ha[/Cnj]=ha" xml:id="w12">Ha</w>
+						<w pos="NOUN" lemma="oszt" msd="[/N][Poss.3Sg][Supe]" type="no" xml:id="w13">osztán</w>
+						<w pos="ADV" lemma="majd" msd="[/Adv]" type="majd[/Adv]=majd" xml:id="w14">majd</w>
+						<w pos="DET" lemma="a" msd="[/Det|Art.Def]" type="a[/Det|Art.Def]=a" xml:id="w15">a</w>
+						<w pos="NOUN" lemma="csata" msd="[/N][Ill]" type="csata[/N]=csatá+ba[Ill]=ba" xml:id="w16">csatába</w>
+						<w pos="VERB" lemma="elesik" msd="[/V][Prs.NDef.1Sg]" type="el[/Prev]=el+esik[/V]=es+ek[Prs.NDef.1Sg]=ek" xml:id="w17">elesek</w>
+						<pc pos="PUNCT" join="left" xml:id="pc6">,</pc>
+						<w pos="VERB" lemma="elesik" msd="[/V][Prs.NDef.1Sg]" type="el[/Prev]=el+esik[/V]=es+ek[Prs.NDef.1Sg]=ek" xml:id="w18">elesek</w>
+						<pc pos="PUNCT" join="left" xml:id="pc7">,</pc>
+						<w pos="VERB" lemma="elesik" msd="[/V][Prs.NDef.1Sg]" type="el[/Prev]=el+esik[/V]=es+ek[Prs.NDef.1Sg]=ek" xml:id="w19">elesek</w>
+						<pc pos="PUNCT" join="left" xml:id="pc8">,</pc>
+					</l>
+					<l xml:id="l4">
+						<w pos="ADJ" lemma="piros" msd="[/Adj][Nom]" type="piros[/Adj|col]=piros+[Nom]=" xml:id="w20">Piros</w>
+						<w pos="NOUN" lemma="palást" msd="[/N][Ins]" type="palást[/N]=palást+tal[Ins]=tal" xml:id="w21">palásttal</w>
+						<w pos="VERB" lemma="takar" msd="[/V][Prs.NDef.3Pl]" type="takar[/V]=takar+nak[Prs.NDef.3Pl]=nak" xml:id="w22">takarnak</w>
+						<w pos="PRON" lemma="én" msd="[/N|Pro][1][Sg][Acc]" type="én[/N|Pro]=eng+em[1]=eme+[Sg]=t+et[Acc]=" xml:id="w23">engemet</w>
+						<pc pos="PUNCT" join="left" xml:id="pc9">,</pc>
+						<w pos="PRON" lemma="én" msd="[/N|Pro][1][Sg][Acc]" type="én[/N|Pro]=eng+em[1]=eme+[Sg]=t+et[Acc]=" xml:id="w24">engemet</w>
+						<pc pos="PUNCT" join="left" xml:id="pc10">.</pc>
+					</l>
+				</lg>
+				<p>Nagyszalonta (Bihar)</p>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1048" xml:lang="hu">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">[A menyasszony új ruhája, …]</title>
+				<respStmt>
+					<resp>ELTE Népdalkorpusz conversion</resp>
+					<persName>
+						<surname>Horváth</surname>
+						<forename>Péter</forename>
+					</persName>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">15</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTE Népdalkorpusz</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>[A menyasszony új ruhája, …]</title>
+					<bibl type="digitalEdition">
+						<title>Magyar népdalok</title>
+						<respStmt>
+							<resp>editing and selection</resp>
+							<persName>
+								<surname>Ortutay</surname>
+								<forename>Gyula</forename>
+								<ref target="http://viaf.org/viaf/39752542"/>
+							</persName>
+							<persName>
+								<surname>Katona</surname>
+								<forename>Imre</forename>
+								<ref target="http://viaf.org/viaf/42247938"/>
+							</persName>
+						</respStmt>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Neumann Kht.</publisher>
+						<date when="2000">2000</date>
+						<ref target="https://mek.oszk.hu/06200/06234"/>
+					</bibl>
+					<bibl type="printEdition">
+						<title>Magyar népdalok</title>
+						<respStmt>
+							<resp>editing and selection</resp>
+							<persName>
+								<surname>Ortutay</surname>
+								<forename>Gyula</forename>
+								<ref target="http://viaf.org/viaf/39752542"/>
+							</persName>
+							<persName>
+								<surname>Katona</surname>
+								<forename>Imre</forename>
+								<ref target="http://viaf.org/viaf/42247938"/>
+							</persName>
+						</respStmt>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Szépirodalmi Kiadó</publisher>
+						<date when="1976">1976</date>
+					</bibl>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>ELTE Népdalkorpusz - automatic annotation</p>
+			</projectDesc>
+			<classDecl>
+				<taxonomy xml:id="g">
+					<category xml:id="g.p">
+						<catDesc>poetry</catDesc>
+						<category xml:id="g.pl">
+							<catDesc>lyric poetry</catDesc>
+						</category>
+						<category xml:id="g.pn">
+							<catDesc>narrative poetry</catDesc>
+						</category>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textClass>
+				<catRef target="#g.p"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2022-02-14">level1</change>
+			<change when="2024-01-25">level2</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<head>[A menyasszony új ruhája, …]</head>
+				<lg xml:id="lg1">
+					<l xml:id="l1">
+						<w pos="DET" lemma="a" msd="[/Det|Art.Def]" type="a[/Det|Art.Def]=a" xml:id="w1">A</w>
+						<w pos="NOUN" lemma="menyasszony" msd="[/N][Nom]" type="meny[/N]=meny+asszony[/N]=asszony+[Nom]=" xml:id="w2">menyasszony</w>
+						<w pos="ADJ" lemma="új" msd="[/Adj][Nom]" type="új[/Adj]=új+[Nom]=" xml:id="w3">új</w>
+						<w pos="NOUN" lemma="ruha" msd="[/N][Poss.3Sg][Nom]" type="ruha[/N]=ruhá+ja[Poss.3Sg]=ja+[Nom]=" xml:id="w4">ruhája</w>
+						<pc pos="PUNCT" join="left" xml:id="pc1">,</pc>
+					</l>
+					<l xml:id="l2">
+						<w pos="ADV" lemma="máma" msd="[/Adv]" type="máma[/Adv]=máma" xml:id="w5">Máma</w>
+						<w pos="ADV" lemma="rí" msd="[/V][_AdvPtcp/Adv]" type="rí[/V]=rí+va[_AdvPtcp/Adv]=va" xml:id="w6">ríva</w>
+						<w pos="VERB" lemma="vesz" msd="[/V][Pst.Def.3Sg]" type="vesz[/V]=ve+tte[Pst.Def.3Sg]=tte" xml:id="w7">vette</w>
+						<w pos="PRON" lemma="ő" msd="[/N|Pro][Subl][3Sg]" type="ő[/N|Pro]=+rá[Subl]=rá+ja[3Sg]=ja" xml:id="w8">rája</w>
+						<pc pos="PUNCT" join="left" xml:id="pc2">.</pc>
+					</l>
+				</lg>
+				<p>Kapuvár (Sopron)</p>
+			</div>
+		</body>
+	</text>
+</TEI>
