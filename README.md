@@ -14,8 +14,8 @@ ELTE Folk Song Corpus is a database developed by the [_Department of Digital Hum
 
 The source of the corpus was the digital version of the book Magyar népdalok (Hungarian Folk Songs) edited and selected by Gyula Ortutay and Imre Katona, published in 1976. The HTML files of the book were downloaded from the [_Hungarian Electronic Library_](http://mek.oszk.hu).
 
-1. The HTML files from the Hungarian Electronic Library were converted into TEI XML format based on the [Text Encoding Initiative](https://tei-c.org/).
-3. Then, we tokenized the folk songs and annotated the grammatical features of words by using [e-magyar](https://github.com/nytud/emtsv), an NLP tool chain for Hungarian texts. The level2 folder contains the TEI XML files in which the morphosyntactic features (values of the msd attributes) are annotated in the format of universal dependencies, while the level2_emMorph folder contains the same files in which the morphosyntactic features are annotated in the own format of e-magyar.
+1. The HTML files from the Hungarian Electronic Library were converted into TEI XML format based on the [_Text Encoding Initiative_](https://tei-c.org/).
+3. Then, we tokenized the poems and annotated the grammatical features of words by using [_e-magyar_](https://github.com/nytud/emtsv), an NLP tool chain for Hungarian texts. The level2 folder contains the TEI XML files in which the morphosyntactic features (values of the msd attributes) are annotated in the format of universal dependencies, while the level2\_emMorph folder contains the same files in which the morphosyntactic features are annotated in its own, [_emMorph_](https://e-magyar.hu/en/textmodules/emmorph_codelist) format of e-magyar.
 4. After the grammatical annotation, we also annotated the rhyme patterns, the rhyme pairs, the rhythm of lines, the alliterations and the phonological features of words (level3).
 5. Finally, we added further annotations of poetic features to the corpus and changed the name and the position of some elements and attributes, using a non-TEI XML format defined for the project (level4).
 
