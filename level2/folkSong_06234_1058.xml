@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1058" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1058" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,16 +107,16 @@
 				<head>[Ez az utca kövecses, …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="ez" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" pos="PRON" type="ez[/Det|Pro]=ez+[Nom]=" xml:id="w1">Ez</w>
-						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" type="az[/Det|Art.Def]=az" xml:id="w2">az</w>
-						<w lemma="utca" msd="Case=Nom|Number=Sing" pos="NOUN" type="utca[/N]=utca+[Nom]=" xml:id="w3">utca</w>
-						<w lemma="kövecses" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="Kövecs[/N]=kövecs+es[_Adjz:s/Adj]=es+[Nom]=" xml:id="w4">kövecses</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
+						<w xml:id="w1" lemma="ez" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" type="ez[/Det|Pro]=ez+[Nom]=">Ez</w>
+						<w xml:id="w2" lemma="az" pos="DET" msd="Definite=Def|PronType=Art" type="az[/Det|Art.Def]=az">az</w>
+						<w xml:id="w3" lemma="utca" pos="NOUN" msd="Case=Nom|Number=Sing" type="utca[/N]=utca+[Nom]=">utca</w>
+						<w xml:id="w4" lemma="kövecses" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="Kövecs[/N]=kövecs+es[_Adjz:s/Adj]=es+[Nom]=">kövecses</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="vőlegény" msd="Case=All|Number=Sing" pos="NOUN" type="vő[/N]=vő+legény[/N]=legény+hez[All]=hez" xml:id="w5">Vőlegényhez</w>
-						<w lemma="bevezet" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="be[/Prev]=be+vezet[/V]=vezet+[Prs.NDef.3Sg]=" xml:id="w6">bevezet</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">.</pc>
+						<w xml:id="w5" lemma="vőlegény" pos="NOUN" msd="Case=All|Number=Sing" type="vő[/N]=vő+legény[/N]=legény+hez[All]=hez">Vőlegényhez</w>
+						<w xml:id="w6" lemma="bevezet" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="be[/Prev]=be+vezet[/V]=vezet+[Prs.NDef.3Sg]=">bevezet</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">.</pc>
 					</l>
 				</lg>
 				<p>Kapuvár (Sopron)</p>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1001" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1001" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,20 +107,20 @@
 				<head>[Többet ér a lábad köze, …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="sok" msd="Case=Acc|Number=Sing|NumType=Card" pos="NUM" type="sok[/Num]=tö+bb[_Comp/Num]=bb+et[Acc]=et" xml:id="w1">Többet</w>
-						<w lemma="ér" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="ér[/V]=ér+[Prs.NDef.3Sg]=" xml:id="w2">ér</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w3">a</w>
-						<w lemma="lábad" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="lábad[/V]=lábad+[Prs.NDef.3Sg]=" xml:id="w4">lábad</w>
-						<w lemma="köz" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" type="köz[/N]=köz+e[Poss.3Sg]=e+[Nom]=" xml:id="w5">köze</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
+						<w xml:id="w1" lemma="sok" pos="NUM" msd="Case=Acc|Number=Sing|NumType=Card" type="sok[/Num]=tö+bb[_Comp/Num]=bb+et[Acc]=et">Többet</w>
+						<w xml:id="w2" lemma="ér" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="ér[/V]=ér+[Prs.NDef.3Sg]=">ér</w>
+						<w xml:id="w3" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w4" lemma="lábad" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="lábad[/V]=lábad+[Prs.NDef.3Sg]=">lábad</w>
+						<w xml:id="w5" lemma="köz" pos="NOUN" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" type="köz[/N]=köz+e[Poss.3Sg]=e+[Nom]=">köze</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="mint" msd="_" pos="SCONJ" type="mint[/Cnj]=mint" xml:id="w6">Mint</w>
-						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" type="az[/Det|Art.Def]=az" xml:id="w7">az</w>
-						<w lemma="egész" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="egész[/Adj]=egész+[Nom]=" xml:id="w8">egész</w>
-						<w lemma="Sopron" msd="Case=Nom|Number=Sing" pos="PROPN" type="Sopron[/N]=Sopron+[Nom]=" xml:id="w9">Sopron</w>
-						<w lemma="megye" msd="Case=Nom|Number=Sing" pos="NOUN" type="megye[/N]=megye+[Nom]=" xml:id="w10">megye</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">.</pc>
+						<w xml:id="w6" lemma="mint" pos="SCONJ" msd="_" type="mint[/Cnj]=mint">Mint</w>
+						<w xml:id="w7" lemma="az" pos="DET" msd="Definite=Def|PronType=Art" type="az[/Det|Art.Def]=az">az</w>
+						<w xml:id="w8" lemma="egész" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="egész[/Adj]=egész+[Nom]=">egész</w>
+						<w xml:id="w9" lemma="Sopron" pos="PROPN" msd="Case=Nom|Number=Sing" type="Sopron[/N]=Sopron+[Nom]=">Sopron</w>
+						<w xml:id="w10" lemma="megye" pos="NOUN" msd="Case=Nom|Number=Sing" type="megye[/N]=megye+[Nom]=">megye</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">.</pc>
 					</l>
 				</lg>
 				<p>Kapuvár (Sopron)</p>

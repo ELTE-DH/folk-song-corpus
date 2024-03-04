@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1201" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1201" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,34 +107,34 @@
 				<head>[Gyerünk, menjünk vendégségbe; …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="jön" msd="Definite=Ind|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="jön[/V]=gyer+ünk[Sbjv.NDef.1Pl]=ünk" xml:id="w1">Gyerünk</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
-						<w lemma="megy" msd="Definite=Ind|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="megy[/V]=men+jünk[Sbjv.NDef.1Pl]=jünk" xml:id="w2">menjünk</w>
-						<w lemma="vendégség" msd="Case=Ill|Number=Sing" pos="NOUN" type="vendég[/N]=vendég+ség[_Nz_Abstr/N]=ség+be[Ill]=be" xml:id="w3">vendégségbe</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">;</pc>
+						<w xml:id="w1" lemma="jön" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" type="jön[/V]=gyer+ünk[Sbjv.NDef.1Pl]=ünk">Gyerünk</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w2" lemma="megy" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" type="megy[/V]=men+jünk[Sbjv.NDef.1Pl]=jünk">menjünk</w>
+						<w xml:id="w3" lemma="vendégség" pos="NOUN" msd="Case=Ill|Number=Sing" type="vendég[/N]=vendég+ség[_Nz_Abstr/N]=ség+be[Ill]=be">vendégségbe</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">;</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="három" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" type="három[/Num]=három+[Nom]=" xml:id="w4">Három</w>
-						<w lemma="hét" msd="Case=Ter|Number=Sing" pos="NOUN" type="hét[/N]=hét+ig[Ter]=ig" xml:id="w5">hétig</w>
-						<w lemma="tart" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="tart[/V]=tart+[Prs.NDef.3Sg]=" xml:id="w6">tart</w>
-						<w lemma="egyvég" msd="Case=Ill|Number=Sing" pos="NOUN" type="no" xml:id="w7">egyvégbe</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">.</pc>
+						<w xml:id="w4" lemma="három" pos="NUM" msd="Case=Nom|Number=Sing|NumType=Card" type="három[/Num]=három+[Nom]=">Három</w>
+						<w xml:id="w5" lemma="hét" pos="NOUN" msd="Case=Ter|Number=Sing" type="hét[/N]=hét+ig[Ter]=ig">hétig</w>
+						<w xml:id="w6" lemma="tart" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="tart[/V]=tart+[Prs.NDef.3Sg]=">tart</w>
+						<w xml:id="w7" lemma="egyvég" pos="NOUN" msd="Case=Ill|Number=Sing" type="no">egyvégbe</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">.</pc>
 					</l>
 					<l xml:id="l3">
-						<w lemma="visz" msd="Definite=Ind|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="visz[/V]=vi+gyünk[Sbjv.NDef.1Pl]=gyünk" xml:id="w8">Vigyünk</w>
-						<w lemma="el" msd="_" pos="ADV" type="el[/Prev]=el" xml:id="w9">el</w>
-						<w lemma="egy" msd="Definite=Ind|PronType=Art" pos="DET" type="egy[/Det|Art.NDef]=egy" xml:id="w10">egy</w>
-						<w lemma="rosta" msd="Case=Nom|Number=Sing" pos="NOUN" type="rosta[/N]=rosta+[Nom]=" xml:id="w11">rosta</w>
-						<w lemma="víz" msd="Case=Acc|Number=Sing" pos="NOUN" type="víz[/N]=viz+et[Acc]=et" xml:id="w12">vizet</w>
-						<pc join="left" pos="PUNCT" xml:id="pc4">,</pc>
+						<w xml:id="w8" lemma="visz" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" type="visz[/V]=vi+gyünk[Sbjv.NDef.1Pl]=gyünk">Vigyünk</w>
+						<w xml:id="w9" lemma="el" pos="ADV" msd="_" type="el[/Prev]=el">el</w>
+						<w xml:id="w10" lemma="egy" pos="DET" msd="Definite=Ind|PronType=Art" type="egy[/Det|Art.NDef]=egy">egy</w>
+						<w xml:id="w11" lemma="rosta" pos="NOUN" msd="Case=Nom|Number=Sing" type="rosta[/N]=rosta+[Nom]=">rosta</w>
+						<w xml:id="w12" lemma="víz" pos="NOUN" msd="Case=Acc|Number=Sing" type="víz[/N]=viz+et[Acc]=et">vizet</w>
+						<pc xml:id="pc4" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l4">
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w13">A</w>
-						<w lemma="nagy" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="nagy[/Adj]=nagy+[Nom]=" xml:id="w14">nagy</w>
-						<w lemma="harang" msd="Case=Nom|Number=Sing" pos="NOUN" type="harang[/N]=harang+[Nom]=" xml:id="w15">harang</w>
-						<w lemma="majd" msd="_" pos="ADV" type="majd[/Adv]=majd" xml:id="w16">majd</w>
-						<w lemma="megfizet" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="meg[/Prev]=meg+fizet[/V]=fizet+[Prs.NDef.3Sg]=" xml:id="w17">megfizet</w>
-						<pc join="left" pos="PUNCT" xml:id="pc5">.</pc>
+						<w xml:id="w13" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">A</w>
+						<w xml:id="w14" lemma="nagy" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="nagy[/Adj]=nagy+[Nom]=">nagy</w>
+						<w xml:id="w15" lemma="harang" pos="NOUN" msd="Case=Nom|Number=Sing" type="harang[/N]=harang+[Nom]=">harang</w>
+						<w xml:id="w16" lemma="majd" pos="ADV" msd="_" type="majd[/Adv]=majd">majd</w>
+						<w xml:id="w17" lemma="megfizet" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="meg[/Prev]=meg+fizet[/V]=fizet+[Prs.NDef.3Sg]=">megfizet</w>
+						<pc xml:id="pc5" join="left" pos="PUNCT">.</pc>
 					</l>
 				</lg>
 			</div>

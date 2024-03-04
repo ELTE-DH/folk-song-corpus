@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1045" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1045" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,20 +107,20 @@
 				<head>[Benned a bor igen sok; …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="te" msd="Case=Ine|Number=Sing|Person=2|PronType=Prs" pos="PRON" type="te[/N|Pro]=+benne[Ine]=benn+ed[2Sg]=ed" xml:id="w1">Benned</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w2">a</w>
-						<w lemma="bor" msd="Case=Nom|Number=Sing" pos="NOUN" type="bor[/N]=bor+[Nom]=" xml:id="w3">bor</w>
-						<w lemma="igen" msd="_" pos="ADV" type="igen[/Adv]=igen" xml:id="w4">igen</w>
-						<w lemma="sok" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" type="sok[/Num]=sok+[Nom]=" xml:id="w5">sok</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">;</pc>
+						<w xml:id="w1" lemma="te" pos="PRON" msd="Case=Ine|Number=Sing|Person=2|PronType=Prs" type="te[/N|Pro]=+benne[Ine]=benn+ed[2Sg]=ed">Benned</w>
+						<w xml:id="w2" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w3" lemma="bor" pos="NOUN" msd="Case=Nom|Number=Sing" type="bor[/N]=bor+[Nom]=">bor</w>
+						<w xml:id="w4" lemma="igen" pos="ADV" msd="_" type="igen[/Adv]=igen">igen</w>
+						<w xml:id="w5" lemma="sok" pos="NUM" msd="Case=Nom|Number=Sing|NumType=Card" type="sok[/Num]=sok+[Nom]=">sok</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">;</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="fél" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="fél[/V]=fél+ek[Prs.NDef.1Sg]=ek" xml:id="w6">Félek</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">,</pc>
-						<w lemma="hogy" msd="_" pos="SCONJ" type="hogy[/Cnj]=hogy" xml:id="w7">hogy</w>
-						<w lemma="még" msd="_" pos="ADV" type="még[/Adv]=még" xml:id="w8">még</w>
-						<w lemma="kicsorog" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="ki[/Prev]=ki+csorog[/V]=csorog+[Prs.NDef.3Sg]=" xml:id="w9">kicsorog</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">!</pc>
+						<w xml:id="w6" lemma="fél" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" type="fél[/V]=fél+ek[Prs.NDef.1Sg]=ek">Félek</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w7" lemma="hogy" pos="SCONJ" msd="_" type="hogy[/Cnj]=hogy">hogy</w>
+						<w xml:id="w8" lemma="még" pos="ADV" msd="_" type="még[/Adv]=még">még</w>
+						<w xml:id="w9" lemma="kicsorog" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="ki[/Prev]=ki+csorog[/V]=csorog+[Prs.NDef.3Sg]=">kicsorog</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Hosszúhetény (Baranya)</p>

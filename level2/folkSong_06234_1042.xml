@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1042" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1042" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,18 +107,18 @@
 				<head>[Béka terem a tóba; …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="béka" msd="Case=Nom|Number=Sing" pos="NOUN" type="béka[/N]=béka+[Nom]=" xml:id="w1">Béka</w>
-						<w lemma="terem" msd="Case=Nom|Number=Sing" pos="NOUN" type="terem[/N]=terem+[Nom]=" xml:id="w2">terem</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w3">a</w>
-						<w lemma="tó" msd="Case=Ill|Number=Sing" pos="NOUN" type="tó[/N]=tó+ba[Ill]=ba" xml:id="w4">tóba</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">;</pc>
+						<w xml:id="w1" lemma="béka" pos="NOUN" msd="Case=Nom|Number=Sing" type="béka[/N]=béka+[Nom]=">Béka</w>
+						<w xml:id="w2" lemma="terem" pos="NOUN" msd="Case=Nom|Number=Sing" type="terem[/N]=terem+[Nom]=">terem</w>
+						<w xml:id="w3" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w4" lemma="tó" pos="NOUN" msd="Case=Ill|Number=Sing" type="tó[/N]=tó+ba[Ill]=ba">tóba</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">;</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="nem" msd="PronType=Neg" pos="ADV" type="nem[/Adv]=nem" xml:id="w5">Nem</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w6">a</w>
-						<w lemma="boros" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="Bor[/N]=bor+os[_Adjz:s/Adj]=os+[Nom]=" xml:id="w7">boros</w>
-						<w lemma="hordó" msd="Case=Ill|Number=Sing" pos="NOUN" type="hordó[/N]=hordó+ba[Ill]=ba" xml:id="w8">hordóba</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">!</pc>
+						<w xml:id="w5" lemma="nem" pos="ADV" msd="PronType=Neg" type="nem[/Adv]=nem">Nem</w>
+						<w xml:id="w6" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w7" lemma="boros" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="Bor[/N]=bor+os[_Adjz:s/Adj]=os+[Nom]=">boros</w>
+						<w xml:id="w8" lemma="hordó" pos="NOUN" msd="Case=Ill|Number=Sing" type="hordó[/N]=hordó+ba[Ill]=ba">hordóba</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Hosszúhetény (Baranya)</p>

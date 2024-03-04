@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_0151" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_0151" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,17 +107,17 @@
 				<head>[Az sem tartott sokáig: …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="az" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" pos="PRON" type="az[/Det|Pro]=az+[Nom]=" xml:id="w1">Az</w>
-						<w lemma="sem" msd="PronType=Neg" pos="ADV" type="sem[/Adv]=sem" xml:id="w2">sem</w>
-						<w lemma="tart" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" type="tart[/V]=tart+ott[Pst.NDef.3Sg]=ott" xml:id="w3">tartott</w>
-						<w lemma="sokáig" msd="_" pos="ADV" type="sokáig[/Adv]=sokáig" xml:id="w4">sokáig</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">:</pc>
+						<w xml:id="w1" lemma="az" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" type="az[/Det|Pro]=az+[Nom]=">Az</w>
+						<w xml:id="w2" lemma="sem" pos="ADV" msd="PronType=Neg" type="sem[/Adv]=sem">sem</w>
+						<w xml:id="w3" lemma="tart" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" type="tart[/V]=tart+ott[Pst.NDef.3Sg]=ott">tartott</w>
+						<w xml:id="w4" lemma="sokáig" pos="ADV" msd="_" type="sokáig[/Adv]=sokáig">sokáig</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">:</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="kedd" msd="Case=Abl|Number=Sing" pos="NOUN" type="kedd[/N]=kedd+től[Abl]=től" xml:id="w5">Keddtől</w>
-						<w lemma="fogva" msd="_" pos="ADP" type="fogva[/Post|(Abl)]=fogva" xml:id="w6">fogva</w>
-						<w lemma="szerda" msd="Case=Ter|Number=Sing" pos="NOUN" type="szerda[/N]=szerdá+ig[Ter]=ig" xml:id="w7">szerdáig</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">.</pc>
+						<w xml:id="w5" lemma="kedd" pos="NOUN" msd="Case=Abl|Number=Sing" type="kedd[/N]=kedd+től[Abl]=től">Keddtől</w>
+						<w xml:id="w6" lemma="fogva" pos="ADP" msd="_" type="fogva[/Post|(Abl)]=fogva">fogva</w>
+						<w xml:id="w7" lemma="szerda" pos="NOUN" msd="Case=Ter|Number=Sing" type="szerda[/N]=szerdá+ig[Ter]=ig">szerdáig</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">.</pc>
 					</l>
 				</lg>
 			</div>

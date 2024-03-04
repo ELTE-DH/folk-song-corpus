@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1016" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1016" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,19 +107,19 @@
 				<head>[Vess figurát olyan cifrát, …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="vet" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="vet[/V]=ves+s[Sbjv.NDef.2Sg]=s" xml:id="w1">Vess</w>
-						<w lemma="figura" msd="Case=Acc|Number=Sing" pos="NOUN" type="figura[/N]=figurá+t[Acc]=t" xml:id="w2">figurát</w>
-						<w lemma="olyan" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" pos="PRON" type="olyan[/Adj|Pro]=olyan+[Nom]=" xml:id="w3">olyan</w>
-						<w lemma="cifra" msd="Case=Acc|Degree=Pos|Number=Sing" pos="ADJ" type="cifra[/Adj]=cifrá+t[Acc]=t" xml:id="w4">cifrát</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
+						<w xml:id="w1" lemma="vet" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" type="vet[/V]=ves+s[Sbjv.NDef.2Sg]=s">Vess</w>
+						<w xml:id="w2" lemma="figura" pos="NOUN" msd="Case=Acc|Number=Sing" type="figura[/N]=figurá+t[Acc]=t">figurát</w>
+						<w xml:id="w3" lemma="olyan" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" type="olyan[/Adj|Pro]=olyan+[Nom]=">olyan</w>
+						<w xml:id="w4" lemma="cifra" pos="ADJ" msd="Case=Acc|Degree=Pos|Number=Sing" type="cifra[/Adj]=cifrá+t[Acc]=t">cifrát</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="hogy" msd="_" pos="SCONJ" type="hogy[/Cnj]=hogy" xml:id="w5">Hogy</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w6">a</w>
-						<w lemma="patkó" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" pos="NOUN" type="patkó[/N]=patkó+d[Poss.2Sg]=d+[Nom]=" xml:id="w7">patkód</w>
-						<w lemma="hány" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="hány[/V]=hány+jon[Sbjv.NDef.3Sg]=jon" xml:id="w8">hányjon</w>
-						<w lemma="szikra" msd="Case=Acc|Number=Sing" pos="NOUN" type="szikra[/N]=szikrá+t[Acc]=t" xml:id="w9">szikrát</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">!</pc>
+						<w xml:id="w5" lemma="hogy" pos="SCONJ" msd="_" type="hogy[/Cnj]=hogy">Hogy</w>
+						<w xml:id="w6" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w7" lemma="patkó" pos="NOUN" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" type="patkó[/N]=patkó+d[Poss.2Sg]=d+[Nom]=">patkód</w>
+						<w xml:id="w8" lemma="hány" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="hány[/V]=hány+jon[Sbjv.NDef.3Sg]=jon">hányjon</w>
+						<w xml:id="w9" lemma="szikra" pos="NOUN" msd="Case=Acc|Number=Sing" type="szikra[/N]=szikrá+t[Acc]=t">szikrát</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Háromszék</p>

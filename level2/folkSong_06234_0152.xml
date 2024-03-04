@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_0152" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_0152" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,18 +107,18 @@
 				<head>[Étel, ital, álom; …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="étel" msd="Case=Nom|Number=Sing" pos="NOUN" type="étel[/N]=étel+[Nom]=" xml:id="w1">Étel</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
-						<w lemma="ital" msd="Case=Nom|Number=Sing" pos="NOUN" type="ital[/N]=ital+[Nom]=" xml:id="w2">ital</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">,</pc>
-						<w lemma="álom" msd="Case=Nom|Number=Sing" pos="NOUN" type="álom[/N]=álom+[Nom]=" xml:id="w3">álom</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">;</pc>
+						<w xml:id="w1" lemma="étel" pos="NOUN" msd="Case=Nom|Number=Sing" type="étel[/N]=étel+[Nom]=">Étel</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w2" lemma="ital" pos="NOUN" msd="Case=Nom|Number=Sing" type="ital[/N]=ital+[Nom]=">ital</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w3" lemma="álom" pos="NOUN" msd="Case=Nom|Number=Sing" type="álom[/N]=álom+[Nom]=">álom</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">;</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="szükséges" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="szükség[/N]=szükség+es[_Adjz:s/Adj]=es+[Nom]=" xml:id="w4">Szükséges</w>
-						<w lemma="e" msd="PronType=Art" pos="ADV" type="e[/Det|Pro|def]=e" xml:id="w5">e</w>
-						<w lemma="három" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" type="három[/Num]=három+[Nom]=" xml:id="w6">három</w>
-						<pc join="left" pos="PUNCT" xml:id="pc4">.</pc>
+						<w xml:id="w4" lemma="szükséges" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="szükség[/N]=szükség+es[_Adjz:s/Adj]=es+[Nom]=">Szükséges</w>
+						<w xml:id="w5" lemma="e" pos="ADV" msd="PronType=Art" type="e[/Det|Pro|def]=e">e</w>
+						<w xml:id="w6" lemma="három" pos="NUM" msd="Case=Nom|Number=Sing|NumType=Card" type="három[/Num]=három+[Nom]=">három</w>
+						<pc xml:id="pc4" join="left" pos="PUNCT">.</pc>
 					</l>
 				</lg>
 			</div>

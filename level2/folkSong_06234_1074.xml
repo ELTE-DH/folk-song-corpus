@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1074" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1074" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,19 +107,19 @@
 				<head>[Mennyi asszony, mennyi leán! …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="mennyi" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" type="mennyi[/Num|Pro|Int]=mennyi+[Nom]=" xml:id="w1">Mennyi</w>
-						<w lemma="asszony" msd="Case=Nom|Number=Sing" pos="NOUN" type="asszony[/N]=asszony+[Nom]=" xml:id="w2">asszony</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
-						<w lemma="mennyi" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" type="mennyi[/Num|Pro|Int]=mennyi+[Nom]=" xml:id="w3">mennyi</w>
-						<w lemma="leán" msd="Case=Nom|Number=Sing" pos="NOUN" type="no" xml:id="w4">leán</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">!</pc>
+						<w xml:id="w1" lemma="mennyi" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" type="mennyi[/Num|Pro|Int]=mennyi+[Nom]=">Mennyi</w>
+						<w xml:id="w2" lemma="asszony" pos="NOUN" msd="Case=Nom|Number=Sing" type="asszony[/N]=asszony+[Nom]=">asszony</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w3" lemma="mennyi" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" type="mennyi[/Num|Pro|Int]=mennyi+[Nom]=">mennyi</w>
+						<w xml:id="w4" lemma="leán" pos="NOUN" msd="Case=Nom|Number=Sing" type="no">leán</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">!</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="mennyi" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" type="mennyi[/Num|Pro|Int]=mennyi+[Nom]=" xml:id="w5">Mennyi</w>
-						<w lemma="vagyon" msd="Case=Nom|Number=Sing" pos="NOUN" type="vagyon[/N]=vagyon+[Nom]=" xml:id="w6">vagyon</w>
-						<w lemma="marad" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" type="marad[/V]=marad+t[Pst.NDef.3Sg]=t" xml:id="w7">maradt</w>
-						<w lemma="én" msd="Case=Sub|Number=Sing|Person=1|PronType=Prs" pos="PRON" type="én[/N|Pro]=+reá[Subl]=reá+m[1Sg]=m" xml:id="w8">reám</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">!</pc>
+						<w xml:id="w5" lemma="mennyi" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" type="mennyi[/Num|Pro|Int]=mennyi+[Nom]=">Mennyi</w>
+						<w xml:id="w6" lemma="vagyon" pos="NOUN" msd="Case=Nom|Number=Sing" type="vagyon[/N]=vagyon+[Nom]=">vagyon</w>
+						<w xml:id="w7" lemma="marad" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" type="marad[/V]=marad+t[Pst.NDef.3Sg]=t">maradt</w>
+						<w xml:id="w8" lemma="én" pos="PRON" msd="Case=Sub|Number=Sing|Person=1|PronType=Prs" type="én[/N|Pro]=+reá[Subl]=reá+m[1Sg]=m">reám</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Udvarhely</p>

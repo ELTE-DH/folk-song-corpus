@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_0992" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_0992" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,24 +107,24 @@
 				<head>[Ha ezt el nem vehetem, …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="ha" msd="_" pos="SCONJ" type="ha[/Cnj]=ha" xml:id="w1">Ha</w>
-						<w lemma="ez" msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" pos="PRON" type="ez[/Det|Pro]=ez+t[Acc]=t" xml:id="w2">ezt</w>
-						<w lemma="el" msd="_" pos="ADV" type="el[/Prev]=el" xml:id="w3">el</w>
-						<w lemma="nem" msd="PronType=Neg" pos="ADV" type="nem[/Adv]=nem" xml:id="w4">nem</w>
-						<w lemma="vesz" msd="Definite=Def|Mood=Pot|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="vesz[/V]=ve+het[_Mod/V]=het+em[Prs.Def.1Sg]=em" xml:id="w5">vehetem</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
+						<w xml:id="w1" lemma="ha" pos="SCONJ" msd="_" type="ha[/Cnj]=ha">Ha</w>
+						<w xml:id="w2" lemma="ez" pos="PRON" msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" type="ez[/Det|Pro]=ez+t[Acc]=t">ezt</w>
+						<w xml:id="w3" lemma="el" pos="ADV" msd="_" type="el[/Prev]=el">el</w>
+						<w xml:id="w4" lemma="nem" pos="ADV" msd="PronType=Neg" type="nem[/Adv]=nem">nem</w>
+						<w xml:id="w5" lemma="vesz" pos="VERB" msd="Definite=Def|Mood=Pot|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" type="vesz[/V]=ve+het[_Mod/V]=het+em[Prs.Def.1Sg]=em">vehetem</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="nem" msd="PronType=Neg" pos="ADV" type="nem[/Adv]=nem" xml:id="w6">Nem</w>
-						<w lemma="iszik" msd="Definite=Def|Mood=Pot|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="iszik[/V]=i+hat[_Mod/V]=hat+om[Prs.Def.1Sg]=om" xml:id="w7">ihatom</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">,</pc>
-						<w lemma="eszik" msd="Definite=Def|Mood=Pot|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="eszik[/V]=e+het[_Mod/V]=het+em[Prs.Def.1Sg]=em" xml:id="w8">ehetem</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">,</pc>
+						<w xml:id="w6" lemma="nem" pos="ADV" msd="PronType=Neg" type="nem[/Adv]=nem">Nem</w>
+						<w xml:id="w7" lemma="iszik" pos="VERB" msd="Definite=Def|Mood=Pot|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" type="iszik[/V]=i+hat[_Mod/V]=hat+om[Prs.Def.1Sg]=om">ihatom</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w8" lemma="eszik" pos="VERB" msd="Definite=Def|Mood=Pot|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" type="eszik[/V]=e+het[_Mod/V]=het+em[Prs.Def.1Sg]=em">ehetem</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l3">
-						<w lemma="maga" msd="Case=Acc|Number=Sing|Person=1|Reflex=Yes" pos="PRON" type="maga[/N|Pro]=mag+am[1Sg]=am+at[Acc]=at" xml:id="w9">Magamat</w>
-						<w lemma="eltemet" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="el[/Prev]=el+temet[/V]=temet+em[Prs.Def.1Sg]=em" xml:id="w10">eltemetem</w>
-						<pc join="left" pos="PUNCT" xml:id="pc4">!</pc>
+						<w xml:id="w9" lemma="maga" pos="PRON" msd="Case=Acc|Number=Sing|Person=1|Reflex=Yes" type="maga[/N|Pro]=mag+am[1Sg]=am+at[Acc]=at">Magamat</w>
+						<w xml:id="w10" lemma="eltemet" pos="VERB" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" type="el[/Prev]=el+temet[/V]=temet+em[Prs.Def.1Sg]=em">eltemetem</w>
+						<pc xml:id="pc4" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Székelyföld</p>

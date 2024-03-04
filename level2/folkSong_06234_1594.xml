@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1594" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1594" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -108,31 +108,31 @@
 				<p>SZABÓCSÚFOLÓ:</p>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="Szabó" msd="Case=Nom|Number=Sing" pos="PROPN" type="Szabó[/N]=Szabó+[Nom]=" xml:id="w1">Szabó</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
-						<w lemma="szabó" msd="Case=Nom|Number=Sing" pos="NOUN" type="szabó[/N]=szabó+[Nom]=" xml:id="w2">szabó</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">,</pc>
-						<w lemma="szabtató" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="no" xml:id="w3">szabtató</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">,</pc>
+						<w xml:id="w1" lemma="Szabó" pos="PROPN" msd="Case=Nom|Number=Sing" type="Szabó[/N]=Szabó+[Nom]=">Szabó</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w2" lemma="szabó" pos="NOUN" msd="Case=Nom|Number=Sing" type="szabó[/N]=szabó+[Nom]=">szabó</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w3" lemma="szabtató" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="no">szabtató</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="kerék" msd="Case=Nom|Number=Sing" pos="NOUN" type="Kerék[/N]=Kerék+[Nom]=" xml:id="w4">Kerék</w>
-						<w lemma="alá" msd="_" pos="ADP" type="alá[/Post]=alá" xml:id="w5">alá</w>
-						<w lemma="csaptató" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="no" xml:id="w6">csaptató</w>
-						<pc join="left" pos="PUNCT" xml:id="pc4">:</pc>
+						<w xml:id="w4" lemma="kerék" pos="NOUN" msd="Case=Nom|Number=Sing" type="Kerék[/N]=Kerék+[Nom]=">Kerék</w>
+						<w xml:id="w5" lemma="alá" pos="ADP" msd="_" type="alá[/Post]=alá">alá</w>
+						<w xml:id="w6" lemma="csaptató" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="no">csaptató</w>
+						<pc xml:id="pc4" join="left" pos="PUNCT">:</pc>
 					</l>
 					<l xml:id="l3">
-						<w lemma="tűz" msd="Case=Nom|Number=Sing" pos="NOUN" type="tűz[/N]=tűz+[Nom]=" xml:id="w7">Tűz</w>
-						<pc join="left" pos="PUNCT" xml:id="pc5">,</pc>
-						<w lemma="láng" msd="Case=Nom|Number=Sing" pos="NOUN" type="láng[/N]=láng+[Nom]=" xml:id="w8">láng</w>
-						<pc join="left" pos="PUNCT" xml:id="pc6">,</pc>
-						<w lemma="égető" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="ég[/V]=ég+et[_Caus/V]=et+ő[_ImpfPtcp/Adj]=ő+[Nom]=" xml:id="w9">égető</w>
-						<pc join="left" pos="PUNCT" xml:id="pc7">,</pc>
+						<w xml:id="w7" lemma="tűz" pos="NOUN" msd="Case=Nom|Number=Sing" type="tűz[/N]=tűz+[Nom]=">Tűz</w>
+						<pc xml:id="pc5" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w8" lemma="láng" pos="NOUN" msd="Case=Nom|Number=Sing" type="láng[/N]=láng+[Nom]=">láng</w>
+						<pc xml:id="pc6" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w9" lemma="égető" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="ég[/V]=ég+et[_Caus/V]=et+ő[_ImpfPtcp/Adj]=ő+[Nom]=">égető</w>
+						<pc xml:id="pc7" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l4">
-						<w lemma="Veszött" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="no" xml:id="w10">Veszött</w>
-						<w lemma="kutya" msd="Case=Nom|Number=Sing" pos="NOUN" type="kutya[/N]=kutya+[Nom]=" xml:id="w11">kutya</w>
-						<w lemma="kergető" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="kerget[/V]=kerget+ő[_ImpfPtcp/Adj]=ő+[Nom]=" xml:id="w12">kergető</w>
+						<w xml:id="w10" lemma="Veszött" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="no">Veszött</w>
+						<w xml:id="w11" lemma="kutya" pos="NOUN" msd="Case=Nom|Number=Sing" type="kutya[/N]=kutya+[Nom]=">kutya</w>
+						<w xml:id="w12" lemma="kergető" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="kerget[/V]=kerget+ő[_ImpfPtcp/Adj]=ő+[Nom]=">kergető</w>
 					</l>
 				</lg>
 				<p>(Csongrád megye)</p>

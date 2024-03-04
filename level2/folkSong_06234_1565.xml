@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1565" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1565" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,26 +107,26 @@
 				<head>[Adjatok a sokbúl, jóbúl; …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="ad" msd="Definite=Ind|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="ad[/V]=ad+jatok[Sbjv.NDef.2Pl]=jatok" xml:id="w1">Adjatok</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w2">a</w>
-						<w lemma="sokbúl" msd="Case=Nom|Number=Sing" pos="NOUN" type="no" xml:id="w3">sokbúl</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
-						<w lemma="jóbúl" msd="Case=Del|Number=Sing" pos="NOUN" type="no" xml:id="w4">jóbúl</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">;</pc>
+						<w xml:id="w1" lemma="ad" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" type="ad[/V]=ad+jatok[Sbjv.NDef.2Pl]=jatok">Adjatok</w>
+						<w xml:id="w2" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w3" lemma="sokbúl" pos="NOUN" msd="Case=Nom|Number=Sing" type="no">sokbúl</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w4" lemma="jóbúl" pos="NOUN" msd="Case=Del|Number=Sing" type="no">jóbúl</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">;</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w5">A</w>
-						<w lemma="kenyír" msd="Case=Ela|Number=Sing" pos="NOUN" type="no" xml:id="w6">kenyírből</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">,</pc>
-						<w lemma="szalonnábúl" msd="Case=Del|Number=Sing" pos="NOUN" type="no" xml:id="w7">szalonnábúl</w>
-						<pc join="left" pos="PUNCT" xml:id="pc4">,</pc>
+						<w xml:id="w5" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">A</w>
+						<w xml:id="w6" lemma="kenyír" pos="NOUN" msd="Case=Ela|Number=Sing" type="no">kenyírből</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w7" lemma="szalonnábúl" pos="NOUN" msd="Case=Del|Number=Sing" type="no">szalonnábúl</w>
+						<pc xml:id="pc4" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l3">
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w8">A</w>
-						<w lemma="szíp" msd="Case=Nom|Number=Sing" pos="NOUN" type="no" xml:id="w9">szíp</w>
-						<w lemma="fínyes" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="no" xml:id="w10">fínyes</w>
-						<w lemma="krajcárokbúl" msd="Case=Nom|Number=Sing" pos="NOUN" type="no" xml:id="w11">krajcárokbúl</w>
-						<pc join="left" pos="PUNCT" xml:id="pc5">!</pc>
+						<w xml:id="w8" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">A</w>
+						<w xml:id="w9" lemma="szíp" pos="NOUN" msd="Case=Nom|Number=Sing" type="no">szíp</w>
+						<w xml:id="w10" lemma="fínyes" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="no">fínyes</w>
+						<w xml:id="w11" lemma="krajcárokbúl" pos="NOUN" msd="Case=Nom|Number=Sing" type="no">krajcárokbúl</w>
+						<pc xml:id="pc5" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Gyula (Békés)</p>

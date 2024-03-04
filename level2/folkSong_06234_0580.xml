@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_0580" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_0580" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,72 +107,72 @@
 				<head>[Tisza szélén elaludtam. …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="Tisza" msd="Case=Nom|Number=Sing" pos="PROPN" type="Tisza[/N]=Tisza+[Nom]=" xml:id="w1">Tisza</w>
-						<w lemma="szél" msd="Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" type="szél[/N]=szél+e[Poss.3Sg]=é+n[Supe]=n" xml:id="w2">szélén</w>
-						<w lemma="elalszik" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" type="el[/Prev]=el+alszik[/V]=alud+tam[Pst.NDef.1Sg]=tam" xml:id="w3">elaludtam</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">.</pc>
+						<w xml:id="w1" lemma="Tisza" pos="PROPN" msd="Case=Nom|Number=Sing" type="Tisza[/N]=Tisza+[Nom]=">Tisza</w>
+						<w xml:id="w2" lemma="szél" pos="NOUN" msd="Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3" type="szél[/N]=szél+e[Poss.3Sg]=é+n[Supe]=n">szélén</w>
+						<w xml:id="w3" lemma="elalszik" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" type="el[/Prev]=el+alszik[/V]=alud+tam[Pst.NDef.1Sg]=tam">elaludtam</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">.</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="jaj" msd="_" pos="INTJ" type="jaj[/Inj-Utt]=jaj" xml:id="w4">Jaj</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">,</pc>
-						<w lemma="de" msd="_" pos="CONJ" type="de[/Cnj]=de" xml:id="w5">de</w>
-						<w lemma="szomorú" msd="Case=Acc|Degree=Pos|Number=Sing" pos="ADJ" type="Szomor[/N]=szomor+ú[_Adjz:Ú/Adj]=ú+t[Acc]=t" xml:id="w6">szomorút</w>
-						<w lemma="álmodik" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" type="álmodik[/V]=álmod+tam[Pst.NDef.1Sg]=tam" xml:id="w7">álmodtam</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">:</pc>
+						<w xml:id="w4" lemma="jaj" pos="INTJ" msd="_" type="jaj[/Inj-Utt]=jaj">Jaj</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w5" lemma="de" pos="CONJ" msd="_" type="de[/Cnj]=de">de</w>
+						<w xml:id="w6" lemma="szomorú" pos="ADJ" msd="Case=Acc|Degree=Pos|Number=Sing" type="Szomor[/N]=szomor+ú[_Adjz:Ú/Adj]=ú+t[Acc]=t">szomorút</w>
+						<w xml:id="w7" lemma="álmodik" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" type="álmodik[/V]=álmod+tam[Pst.NDef.1Sg]=tam">álmodtam</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">:</pc>
 					</l>
 					<l xml:id="l3">
-						<w lemma="megálmodik" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" type="meg[/Prev]=meg+álmodik[/V]=álmod+tam[Pst.Def.1Sg]=tam" xml:id="w8">Megálmodtam</w>
-						<w lemma="az" msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" pos="PRON" type="az[/Det|Pro]=az+t[Acc]=t" xml:id="w9">azt</w>
-						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" type="az[/Det|Art.Def]=az" xml:id="w10">az</w>
-						<w lemma="egy" msd="Case=Acc|Number=Sing|NumType=Card" pos="NUM" type="egy[/Num]=egy+et[Acc]=et" xml:id="w11">egyet</w>
-						<pc join="left" pos="PUNCT" xml:id="pc4">,</pc>
+						<w xml:id="w8" lemma="megálmodik" pos="VERB" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" type="meg[/Prev]=meg+álmodik[/V]=álmod+tam[Pst.Def.1Sg]=tam">Megálmodtam</w>
+						<w xml:id="w9" lemma="az" pos="PRON" msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" type="az[/Det|Pro]=az+t[Acc]=t">azt</w>
+						<w xml:id="w10" lemma="az" pos="DET" msd="Definite=Def|PronType=Art" type="az[/Det|Art.Def]=az">az</w>
+						<w xml:id="w11" lemma="egy" pos="NUM" msd="Case=Acc|Number=Sing|NumType=Card" type="egy[/Num]=egy+et[Acc]=et">egyet</w>
+						<pc xml:id="pc4" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l4">
-						<w lemma="hogy" msd="_" pos="SCONJ" type="hogy[/Cnj]=hogy" xml:id="w12">Hogy</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w13">a</w>
-						<w lemma="rózsa" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" pos="NOUN" type="rózsa[/N]=rózsá+m[Poss.1Sg]=m+[Nom]=" xml:id="w14">rózsám</w>
-						<w lemma="más" msd="Case=Acc|Number=Sing" pos="NOUN" type="más[/N|Pro]=más+t[Acc]=t" xml:id="w15">mást</w>
-						<w lemma="is" msd="_" pos="ADV" type="is[/Adv]=is" xml:id="w16">is</w>
-						<w lemma="szeret" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="szeret[/V]=szeret+[Prs.NDef.3Sg]=" xml:id="w17">szeret</w>
-						<pc join="left" pos="PUNCT" xml:id="pc5">.</pc>
+						<w xml:id="w12" lemma="hogy" pos="SCONJ" msd="_" type="hogy[/Cnj]=hogy">Hogy</w>
+						<w xml:id="w13" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w14" lemma="rózsa" pos="NOUN" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" type="rózsa[/N]=rózsá+m[Poss.1Sg]=m+[Nom]=">rózsám</w>
+						<w xml:id="w15" lemma="más" pos="NOUN" msd="Case=Acc|Number=Sing" type="más[/N|Pro]=más+t[Acc]=t">mást</w>
+						<w xml:id="w16" lemma="is" pos="ADV" msd="_" type="is[/Adv]=is">is</w>
+						<w xml:id="w17" lemma="szeret" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="szeret[/V]=szeret+[Prs.NDef.3Sg]=">szeret</w>
+						<pc xml:id="pc5" join="left" pos="PUNCT">.</pc>
 					</l>
 				</lg>
 				<lg xml:id="lg2">
 					<l xml:id="l5">
-						<w lemma="addig" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" type="addig[/Adv|Pro]=addig" xml:id="w18">Addig</w>
-						<pc join="left" pos="PUNCT" xml:id="pc6">,</pc>
-						<w lemma="rózsa" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" pos="NOUN" type="rózsa[/N]=rózsá+m[Poss.1Sg]=m+[Nom]=" xml:id="w19">rózsám</w>
-						<pc join="left" pos="PUNCT" xml:id="pc7">,</pc>
-						<w lemma="el" msd="_" pos="ADV" type="el[/Prev]=el" xml:id="w20">el</w>
-						<w lemma="nem" msd="PronType=Neg" pos="ADV" type="nem[/Adv]=nem" xml:id="w21">nem</w>
-						<w lemma="hagy" msd="Definite=2|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="hagy[/V]=hagy+lak[Prs.1Sg›2]=lak" xml:id="w22">hagylak</w>
-						<pc join="left" pos="PUNCT" xml:id="pc8">,</pc>
+						<w xml:id="w18" lemma="addig" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" type="addig[/Adv|Pro]=addig">Addig</w>
+						<pc xml:id="pc6" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w19" lemma="rózsa" pos="NOUN" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" type="rózsa[/N]=rózsá+m[Poss.1Sg]=m+[Nom]=">rózsám</w>
+						<pc xml:id="pc7" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w20" lemma="el" pos="ADV" msd="_" type="el[/Prev]=el">el</w>
+						<w xml:id="w21" lemma="nem" pos="ADV" msd="PronType=Neg" type="nem[/Adv]=nem">nem</w>
+						<w xml:id="w22" lemma="hagy" pos="VERB" msd="Definite=2|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" type="hagy[/V]=hagy+lak[Prs.1Sg›2]=lak">hagylak</w>
+						<pc xml:id="pc8" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l6">
-						<w lemma="míg" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" pos="PRON" type="amíg[/Adv|Pro|Rel]=míg" xml:id="w23">Míg</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w24">a</w>
-						<w lemma="tó" msd="Case=Ill|Number=Sing" pos="NOUN" type="tó[/N]=tó+ba[Ill]=ba" xml:id="w25">tóba</w>
-						<w lemma="hal" msd="Case=Nom|Number=Plur" pos="NOUN" type="hal[/N]=hal+ak[Pl]=ak+[Nom]=" xml:id="w26">halak</w>
-						<w lemma="lakik" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="lakik[/V]=lak+nak[Prs.NDef.3Pl]=nak" xml:id="w27">laknak</w>
-						<pc join="left" pos="PUNCT" xml:id="pc9">.</pc>
+						<w xml:id="w23" lemma="míg" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" type="amíg[/Adv|Pro|Rel]=míg">Míg</w>
+						<w xml:id="w24" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w25" lemma="tó" pos="NOUN" msd="Case=Ill|Number=Sing" type="tó[/N]=tó+ba[Ill]=ba">tóba</w>
+						<w xml:id="w26" lemma="hal" pos="NOUN" msd="Case=Nom|Number=Plur" type="hal[/N]=hal+ak[Pl]=ak+[Nom]=">halak</w>
+						<w xml:id="w27" lemma="lakik" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="lakik[/V]=lak+nak[Prs.NDef.3Pl]=nak">laknak</w>
+						<pc xml:id="pc9" join="left" pos="PUNCT">.</pc>
 					</l>
 					<l xml:id="l7">
-						<w lemma="az" msd="Case=Ill|Number=Sing|Person=3|PronType=Dem" pos="PRON" type="az[/Det|Pro]=ab+ba[Ill]=ba" xml:id="w28">Abba</w>
-						<w lemma="pedig" msd="_" pos="CONJ" type="pedig[/Cnj]=pedig" xml:id="w29">pedig</w>
-						<w lemma="mindig" msd="_" pos="ADV" type="mindig[/Adv]=mindig" xml:id="w30">mindig</w>
-						<w lemma="lakik" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="lakik[/V]=lak+nak[Prs.NDef.3Pl]=nak" xml:id="w31">laknak</w>
-						<pc join="left" pos="PUNCT" xml:id="pc10">,</pc>
+						<w xml:id="w28" lemma="az" pos="PRON" msd="Case=Ill|Number=Sing|Person=3|PronType=Dem" type="az[/Det|Pro]=ab+ba[Ill]=ba">Abba</w>
+						<w xml:id="w29" lemma="pedig" pos="CONJ" msd="_" type="pedig[/Cnj]=pedig">pedig</w>
+						<w xml:id="w30" lemma="mindig" pos="ADV" msd="_" type="mindig[/Adv]=mindig">mindig</w>
+						<w xml:id="w31" lemma="lakik" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="lakik[/V]=lak+nak[Prs.NDef.3Pl]=nak">laknak</w>
+						<pc xml:id="pc10" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l8">
-						<w lemma="így" msd="_" pos="CONJ" type="így[/Cnj]=így" xml:id="w32">Így</w>
-						<w lemma="hát" msd="_" pos="ADV" type="hát[/Adv]=hát" xml:id="w33">hát</w>
-						<pc join="left" pos="PUNCT" xml:id="pc11">,</pc>
-						<w lemma="baba" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" pos="NOUN" type="baba[/N]=babá+m[Poss.1Sg]=m+[Nom]=" xml:id="w34">babám</w>
-						<pc join="left" pos="PUNCT" xml:id="pc12">,</pc>
-						<w lemma="el" msd="_" pos="ADV" type="el[/Prev]=el" xml:id="w35">el</w>
-						<w lemma="nem" msd="PronType=Neg" pos="ADV" type="nem[/Adv]=nem" xml:id="w36">nem</w>
-						<w lemma="hagy" msd="Definite=2|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="hagy[/V]=hagy+lak[Prs.1Sg›2]=lak" xml:id="w37">hagylak</w>
-						<pc join="left" pos="PUNCT" xml:id="pc13">.</pc>
+						<w xml:id="w32" lemma="így" pos="CONJ" msd="_" type="így[/Cnj]=így">Így</w>
+						<w xml:id="w33" lemma="hát" pos="ADV" msd="_" type="hát[/Adv]=hát">hát</w>
+						<pc xml:id="pc11" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w34" lemma="baba" pos="NOUN" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" type="baba[/N]=babá+m[Poss.1Sg]=m+[Nom]=">babám</w>
+						<pc xml:id="pc12" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w35" lemma="el" pos="ADV" msd="_" type="el[/Prev]=el">el</w>
+						<w xml:id="w36" lemma="nem" pos="ADV" msd="PronType=Neg" type="nem[/Adv]=nem">nem</w>
+						<w xml:id="w37" lemma="hagy" pos="VERB" msd="Definite=2|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" type="hagy[/V]=hagy+lak[Prs.1Sg›2]=lak">hagylak</w>
+						<pc xml:id="pc13" join="left" pos="PUNCT">.</pc>
 					</l>
 				</lg>
 				<p>Kiskunhalas (Pest)</p>

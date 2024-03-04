@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1024" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1024" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,21 +107,21 @@
 				<head>[Összetöröm magamat, …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="összetör" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="össze[/Prev]=össze+tör[/V]=tör+öm[Prs.Def.1Sg]=öm" xml:id="w1">Összetöröm</w>
-						<w lemma="maga" msd="Case=Acc|Number=Sing|Person=1|Reflex=Yes" pos="PRON" type="maga[/N|Pro]=mag+am[1Sg]=am+at[Acc]=at" xml:id="w2">magamat</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
+						<w xml:id="w1" lemma="összetör" pos="VERB" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" type="össze[/Prev]=össze+tör[/V]=tör+öm[Prs.Def.1Sg]=öm">Összetöröm</w>
+						<w xml:id="w2" lemma="maga" pos="PRON" msd="Case=Acc|Number=Sing|Person=1|Reflex=Yes" type="maga[/N|Pro]=mag+am[1Sg]=am+at[Acc]=at">magamat</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="kitör" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="ki[/Prev]=ki+tör[/V]=tör+öm[Prs.Def.1Sg]=öm" xml:id="w3">Kitöröm</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w4">a</w>
-						<w lemma="nyak" msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1" pos="NOUN" type="nyak[/N]=nyak+am[Poss.1Sg]=am+at[Acc]=at" xml:id="w5">nyakamat</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">,</pc>
+						<w xml:id="w3" lemma="kitör" pos="VERB" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" type="ki[/Prev]=ki+tör[/V]=tör+öm[Prs.Def.1Sg]=öm">Kitöröm</w>
+						<w xml:id="w4" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w5" lemma="nyak" pos="NOUN" msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1" type="nyak[/N]=nyak+am[Poss.1Sg]=am+at[Acc]=at">nyakamat</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l3">
-						<w lemma="mégsem" msd="_" pos="ADV" type="mégsem[/Adv]=mégsem" xml:id="w6">Mégsem</w>
-						<w lemma="hagy" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="hagy[/V]=hagy+om[Prs.Def.1Sg]=om" xml:id="w7">hagyom</w>
-						<w lemma="maga" msd="Case=Acc|Number=Sing|Person=1|Reflex=Yes" pos="PRON" type="maga[/N|Pro]=mag+am[1Sg]=am+at[Acc]=at" xml:id="w8">magamat</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">!</pc>
+						<w xml:id="w6" lemma="mégsem" pos="ADV" msd="_" type="mégsem[/Adv]=mégsem">Mégsem</w>
+						<w xml:id="w7" lemma="hagy" pos="VERB" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" type="hagy[/V]=hagy+om[Prs.Def.1Sg]=om">hagyom</w>
+						<w xml:id="w8" lemma="maga" pos="PRON" msd="Case=Acc|Number=Sing|Person=1|Reflex=Yes" type="maga[/N|Pro]=mag+am[1Sg]=am+at[Acc]=at">magamat</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Szabolcs</p>

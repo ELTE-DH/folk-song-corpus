@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1033" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1033" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,25 +107,25 @@
 				<head>[Ej-haj, laboda, …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="ej-haj" msd="_" pos="INTJ" type="ej-haj[/Inj-Utt]=ej-haj" xml:id="w1">Ej-haj</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
-						<w lemma="laboda" msd="Case=Nom|Number=Sing" pos="NOUN" type="laboda[/N]=laboda+[Nom]=" xml:id="w2">laboda</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">,</pc>
+						<w xml:id="w1" lemma="ej-haj" pos="INTJ" msd="_" type="ej-haj[/Inj-Utt]=ej-haj">Ej-haj</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w2" lemma="laboda" pos="NOUN" msd="Case=Nom|Number=Sing" type="laboda[/N]=laboda+[Nom]=">laboda</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="lábad" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="lábad[/V]=lábad+[Prs.NDef.3Sg]=" xml:id="w3">Lábad</w>
-						<w lemma="ide" msd="_" pos="ADV" type="ide[/Prev]=ide" xml:id="w4">ide</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">,</pc>
-						<w lemma="nem" msd="PronType=Neg" pos="ADV" type="nem[/Adv]=nem" xml:id="w5">nem</w>
-						<w lemma="oda" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" type="oda[/Adv|Pro]=oda" xml:id="w6">oda</w>
-						<pc join="left" pos="PUNCT" xml:id="pc4">,</pc>
+						<w xml:id="w3" lemma="lábad" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="lábad[/V]=lábad+[Prs.NDef.3Sg]=">Lábad</w>
+						<w xml:id="w4" lemma="ide" pos="ADV" msd="_" type="ide[/Prev]=ide">ide</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w5" lemma="nem" pos="ADV" msd="PronType=Neg" type="nem[/Adv]=nem">nem</w>
+						<w xml:id="w6" lemma="oda" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" type="oda[/Adv|Pro]=oda">oda</w>
+						<pc xml:id="pc4" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l3">
-						<w lemma="tör" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="tör[/V]=tör+jön[Sbjv.NDef.3Sg]=jön" xml:id="w7">Törjön</w>
-						<w lemma="ki" msd="_" pos="ADV" type="ki[/Prev]=ki" xml:id="w8">ki</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w9">a</w>
-						<w lemma="nyavalya" msd="Case=Nom|Number=Sing" pos="NOUN" type="nyavalya[/N]=nyavalya+[Nom]=" xml:id="w10">nyavalya</w>
-						<pc join="left" pos="PUNCT" xml:id="pc5">!</pc>
+						<w xml:id="w7" lemma="tör" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="tör[/V]=tör+jön[Sbjv.NDef.3Sg]=jön">Törjön</w>
+						<w xml:id="w8" lemma="ki" pos="ADV" msd="_" type="ki[/Prev]=ki">ki</w>
+						<w xml:id="w9" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w10" lemma="nyavalya" pos="NOUN" msd="Case=Nom|Number=Sing" type="nyavalya[/N]=nyavalya+[Nom]=">nyavalya</w>
+						<pc xml:id="pc5" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Háromszék</p>

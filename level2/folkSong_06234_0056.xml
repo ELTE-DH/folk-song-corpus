@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_0056" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_0056" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -108,26 +108,26 @@
 				<p>ESŐINDÍTÓ</p>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="jóisten" msd="Case=Nom|Number=Sing" pos="NOUN" type="jóisten[/N]=jóisten+[Nom]=" xml:id="w1">Jóisten</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
-						<w lemma="ad" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="ad[/V]=ad+j[Sbjv.NDef.2Sg]=j" xml:id="w2">adj</w>
-						<w lemma="esü" msd="Case=Acc|Number=Sing" pos="NOUN" type="no" xml:id="w3">esüt</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">,</pc>
+						<w xml:id="w1" lemma="jóisten" pos="NOUN" msd="Case=Nom|Number=Sing" type="jóisten[/N]=jóisten+[Nom]=">Jóisten</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w2" lemma="ad" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" type="ad[/V]=ad+j[Sbjv.NDef.2Sg]=j">adj</w>
+						<w xml:id="w3" lemma="esü" pos="NOUN" msd="Case=Acc|Number=Sing" type="no">esüt</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="ló" msd="Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=1" pos="NOUN" type="ló[/N]=lov+am[Poss.1Sg]=am+nak[Dat]=nak" xml:id="w4">Lovamnak</w>
-						<w lemma="legelüt" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="no" xml:id="w5">legelüt</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">;</pc>
+						<w xml:id="w4" lemma="ló" pos="NOUN" msd="Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=1" type="ló[/N]=lov+am[Poss.1Sg]=am+nak[Dat]=nak">Lovamnak</w>
+						<w xml:id="w5" lemma="legelüt" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="no">legelüt</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">;</pc>
 					</l>
 					<l xml:id="l3">
-						<w lemma="maga" msd="Case=Dat|Number=Sing|Person=1|Reflex=Yes" pos="PRON" type="maga[/N|Pro]=mag+am[1Sg]=am+nak[Dat]=nak" xml:id="w6">Magamnak</w>
-						<w lemma="meg" msd="_" pos="PART" type="meg[/Prev]=meg" xml:id="w7">meg</w>
+						<w xml:id="w6" lemma="maga" pos="PRON" msd="Case=Dat|Number=Sing|Person=1|Reflex=Yes" type="maga[/N|Pro]=mag+am[1Sg]=am+nak[Dat]=nak">Magamnak</w>
+						<w xml:id="w7" lemma="meg" pos="PART" msd="_" type="meg[/Prev]=meg">meg</w>
 					</l>
 					<l xml:id="l4">
-						<w lemma="igaz" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="igaz[/Adj]=igaz+[Nom]=" xml:id="w8">Igaz</w>
-						<w lemma="szüvü" msd="Case=Nom|Number=Sing" pos="NOUN" type="no" xml:id="w9">szüvü</w>
-						<w lemma="szerető" msd="Case=Acc|Number=Sing" pos="NOUN" type="szerető[/N]=szerető+t[Acc]=t" xml:id="w10">szeretőt</w>
-						<pc join="left" pos="PUNCT" xml:id="pc4">!</pc>
+						<w xml:id="w8" lemma="igaz" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="igaz[/Adj]=igaz+[Nom]=">Igaz</w>
+						<w xml:id="w9" lemma="szüvü" pos="NOUN" msd="Case=Nom|Number=Sing" type="no">szüvü</w>
+						<w xml:id="w10" lemma="szerető" pos="NOUN" msd="Case=Acc|Number=Sing" type="szerető[/N]=szerető+t[Acc]=t">szeretőt</w>
+						<pc xml:id="pc4" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Páka (Göcsej, Zala)</p>

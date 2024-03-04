@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1004" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1004" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,18 +107,18 @@
 				<head>[Szűrőszita, tejeslábas. …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="szűrőszita" msd="Case=Nom|Number=Sing" pos="NOUN" type="szűr[/V]=szűr+ő[_ImpfPtcp/Adj]=ő+szita[/N]=szita+[Nom]=" xml:id="w1">Szűrőszita</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
-						<w lemma="tejeslábas" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="tejes[/N]=tejes+láb[/N]=láb+as[_Adjz:s/Adj]=as+[Nom]=" xml:id="w2">tejeslábas</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">.</pc>
+						<w xml:id="w1" lemma="szűrőszita" pos="NOUN" msd="Case=Nom|Number=Sing" type="szűr[/V]=szűr+ő[_ImpfPtcp/Adj]=ő+szita[/N]=szita+[Nom]=">Szűrőszita</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w2" lemma="tejeslábas" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="tejes[/N]=tejes+láb[/N]=láb+as[_Adjz:s/Adj]=as+[Nom]=">tejeslábas</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">.</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="áll" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="áll[/V]=áll+jon[Sbjv.NDef.3Sg]=jon" xml:id="w3">Álljon</w>
-						<w lemma="félre" msd="_" pos="ADV" type="félre[/Prev]=félre" xml:id="w4">félre</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">,</pc>
-						<w lemma="aki" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" pos="PRON" type="aki[/N|Pro|Rel]=aki+[Nom]=" xml:id="w5">aki</w>
-						<w lemma="házas" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="ház[/N]=ház+as[_Adjz:s/Adj]=as+[Nom]=" xml:id="w6">házas</w>
-						<pc join="left" pos="PUNCT" xml:id="pc4">!</pc>
+						<w xml:id="w3" lemma="áll" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="áll[/V]=áll+jon[Sbjv.NDef.3Sg]=jon">Álljon</w>
+						<w xml:id="w4" lemma="félre" pos="ADV" msd="_" type="félre[/Prev]=félre">félre</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w5" lemma="aki" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" type="aki[/N|Pro|Rel]=aki+[Nom]=">aki</w>
+						<w xml:id="w6" lemma="házas" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="ház[/N]=ház+as[_Adjz:s/Adj]=as+[Nom]=">házas</w>
+						<pc xml:id="pc4" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Háromszék</p>

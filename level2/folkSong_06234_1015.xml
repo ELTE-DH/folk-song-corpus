@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1015" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1015" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,16 +107,16 @@
 				<head>[Három a tánc mindhalálig, … 2]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="három" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" type="három[/Num]=három+[Nom]=" xml:id="w1">Három</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w2">a</w>
-						<w lemma="tánc" msd="Case=Nom|Number=Sing" pos="NOUN" type="tánc[/N]=tánc+[Nom]=" xml:id="w3">tánc</w>
-						<w lemma="mindhalálig" msd="_" pos="ADV" type="mindhalálig[/Adv]=mindhalálig" xml:id="w4">mindhalálig</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
+						<w xml:id="w1" lemma="három" pos="NUM" msd="Case=Nom|Number=Sing|NumType=Card" type="három[/Num]=három+[Nom]=">Három</w>
+						<w xml:id="w2" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w3" lemma="tánc" pos="NOUN" msd="Case=Nom|Number=Sing" type="tánc[/N]=tánc+[Nom]=">tánc</w>
+						<w xml:id="w4" lemma="mindhalálig" pos="ADV" msd="_" type="mindhalálig[/Adv]=mindhalálig">mindhalálig</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="Kivilágos" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="no" xml:id="w5">Kivilágos</w>
-						<w lemma="kivirradta" msd="Case=Ter|Number=Sing" pos="NOUN" type="ki[/Prev]=ki+virrad[/V]=virrad+ta[_Ger:tA/N]=t+ig[Ter]=ig" xml:id="w6">kivirradtig</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">!</pc>
+						<w xml:id="w5" lemma="Kivilágos" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="no">Kivilágos</w>
+						<w xml:id="w6" lemma="kivirradta" pos="NOUN" msd="Case=Ter|Number=Sing" type="ki[/Prev]=ki+virrad[/V]=virrad+ta[_Ger:tA/N]=t+ig[Ter]=ig">kivirradtig</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Háromszék</p>

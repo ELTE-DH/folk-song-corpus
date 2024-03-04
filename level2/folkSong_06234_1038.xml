@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1038" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1038" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,17 +107,17 @@
 				<head>[Aki minket kinevet, …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="aki" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" pos="PRON" type="aki[/N|Pro|Rel]=aki+[Nom]=" xml:id="w1">Aki</w>
-						<w lemma="mi" msd="Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs" pos="PRON" type="mi[/N|Pro|Int]=mi+nk[Poss.1Pl]=nk+et[Acc]=et" xml:id="w2">minket</w>
-						<w lemma="kinevet" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="ki[/Prev]=ki+nevet[/V]=nevet+[Prs.NDef.3Sg]=" xml:id="w3">kinevet</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
+						<w xml:id="w1" lemma="aki" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" type="aki[/N|Pro|Rel]=aki+[Nom]=">Aki</w>
+						<w xml:id="w2" lemma="mi" pos="PRON" msd="Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs" type="mi[/N|Pro|Int]=mi+nk[Poss.1Pl]=nk+et[Acc]=et">minket</w>
+						<w xml:id="w3" lemma="kinevet" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="ki[/Prev]=ki+nevet[/V]=nevet+[Prs.NDef.3Sg]=">kinevet</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="kap" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="kap[/V]=kap+ja[Prs.Def.3Sg]=ja" xml:id="w4">Kapja</w>
-						<w lemma="be" msd="_" pos="ADV" type="be[/Prev]=be" xml:id="w5">be</w>
-						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" type="az[/Det|Art.Def]=az" xml:id="w6">az</w>
-						<w lemma="egér" msd="Case=Acc|Number=Sing" pos="NOUN" type="egér[/N]=eger+et[Acc]=et" xml:id="w7">egeret</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">!</pc>
+						<w xml:id="w4" lemma="kap" pos="VERB" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="kap[/V]=kap+ja[Prs.Def.3Sg]=ja">Kapja</w>
+						<w xml:id="w5" lemma="be" pos="ADV" msd="_" type="be[/Prev]=be">be</w>
+						<w xml:id="w6" lemma="az" pos="DET" msd="Definite=Def|PronType=Art" type="az[/Det|Art.Def]=az">az</w>
+						<w xml:id="w7" lemma="egér" pos="NOUN" msd="Case=Acc|Number=Sing" type="egér[/N]=eger+et[Acc]=et">egeret</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Kisiratos (Csanád)</p>

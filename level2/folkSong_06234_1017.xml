@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1017" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1017" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,21 +107,21 @@
 				<head>[Ez a kicsi, ez a tánc, …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="ez" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" pos="PRON" type="ez[/Det|Pro]=ez+[Nom]=" xml:id="w1">Ez</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w2">a</w>
-						<w lemma="kicsi" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="kicsi[/Adj]=kicsi+[Nom]=" xml:id="w3">kicsi</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
-						<w lemma="ez" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" pos="PRON" type="ez[/Det|Pro]=ez+[Nom]=" xml:id="w4">ez</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w5">a</w>
-						<w lemma="tánc" msd="Case=Nom|Number=Sing" pos="NOUN" type="tánc[/N]=tánc+[Nom]=" xml:id="w6">tánc</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">,</pc>
+						<w xml:id="w1" lemma="ez" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" type="ez[/Det|Pro]=ez+[Nom]=">Ez</w>
+						<w xml:id="w2" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w3" lemma="kicsi" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="kicsi[/Adj]=kicsi+[Nom]=">kicsi</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w4" lemma="ez" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" type="ez[/Det|Pro]=ez+[Nom]=">ez</w>
+						<w xml:id="w5" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w6" lemma="tánc" pos="NOUN" msd="Case=Nom|Number=Sing" type="tánc[/N]=tánc+[Nom]=">tánc</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="ez" msd="Case=Ill|Number=Sing|Person=3|PronType=Dem" pos="PRON" type="ez[/Det|Pro]=eb+be[Ill]=be" xml:id="w7">Ebbe</w>
-						<w lemma="mozog" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="mozog[/V]=mozog+[Prs.NDef.3Sg]=" xml:id="w8">mozog</w>
-						<w lemma="minden" msd="Case=Nom|Number=Sing|Person=3|PronType=Tot" pos="PRON" type="minden[/N|Pro]=minden+[Nom]=" xml:id="w9">minden</w>
-						<w lemma="ránc" msd="Case=Nom|Number=Sing" pos="NOUN" type="ránc[/N]=ránc+[Nom]=" xml:id="w10">ránc</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">…</pc>
+						<w xml:id="w7" lemma="ez" pos="PRON" msd="Case=Ill|Number=Sing|Person=3|PronType=Dem" type="ez[/Det|Pro]=eb+be[Ill]=be">Ebbe</w>
+						<w xml:id="w8" lemma="mozog" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="mozog[/V]=mozog+[Prs.NDef.3Sg]=">mozog</w>
+						<w xml:id="w9" lemma="minden" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Tot" type="minden[/N|Pro]=minden+[Nom]=">minden</w>
+						<w xml:id="w10" lemma="ránc" pos="NOUN" msd="Case=Nom|Number=Sing" type="ránc[/N]=ránc+[Nom]=">ránc</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">…</pc>
 					</l>
 				</lg>
 				<p>Balavásár (Kis-Küküllő)</p>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_0149" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_0149" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -108,18 +108,18 @@
 				<p>VERSES SZÓLÁSOK</p>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="ha" msd="_" pos="SCONJ" type="ha[/Cnj]=ha" xml:id="w1">Ha</w>
-						<w lemma="nem" msd="PronType=Neg" pos="ADV" type="nem[/Adv]=nem" xml:id="w2">nem</w>
-						<w lemma="csordul" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="csordul[/V]=csordul+[Prs.NDef.3Sg]=" xml:id="w3">csordul</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
-						<w lemma="csöppen" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="csöppen[/V]=csöppen+[Prs.NDef.3Sg]=" xml:id="w4">csöppen</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">:</pc>
+						<w xml:id="w1" lemma="ha" pos="SCONJ" msd="_" type="ha[/Cnj]=ha">Ha</w>
+						<w xml:id="w2" lemma="nem" pos="ADV" msd="PronType=Neg" type="nem[/Adv]=nem">nem</w>
+						<w xml:id="w3" lemma="csordul" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="csordul[/V]=csordul+[Prs.NDef.3Sg]=">csordul</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w4" lemma="csöppen" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="csöppen[/V]=csöppen+[Prs.NDef.3Sg]=">csöppen</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">:</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="száz" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" type="száz[/Num]=száz+[Nom]=" xml:id="w5">Száz</w>
-						<w lemma="forint" msd="Case=Ela|Number=Sing" pos="NOUN" type="forint[/N]=forint+ból[Ela]=ból" xml:id="w6">forintból</w>
-						<w lemma="ötven" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" type="ötven[/Num]=ötven+[Nom]=" xml:id="w7">ötven</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">.</pc>
+						<w xml:id="w5" lemma="száz" pos="NUM" msd="Case=Nom|Number=Sing|NumType=Card" type="száz[/Num]=száz+[Nom]=">Száz</w>
+						<w xml:id="w6" lemma="forint" pos="NOUN" msd="Case=Ela|Number=Sing" type="forint[/N]=forint+ból[Ela]=ból">forintból</w>
+						<w xml:id="w7" lemma="ötven" pos="NUM" msd="Case=Nom|Number=Sing|NumType=Card" type="ötven[/Num]=ötven+[Nom]=">ötven</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">.</pc>
 					</l>
 				</lg>
 			</div>

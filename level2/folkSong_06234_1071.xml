@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1071" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1071" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,18 +107,18 @@
 				<head>[A házasság kaloda, …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w1">A</w>
-						<w lemma="házasság" msd="Case=Nom|Number=Sing" pos="NOUN" type="ház[/N]=ház+as[_Adjz:s/Adj]=as+ság[_Nz_Abstr/N]=ság+[Nom]=" xml:id="w2">házasság</w>
-						<w lemma="kaloda" msd="Case=Nom|Number=Sing" pos="NOUN" type="kaloda[/N]=kaloda+[Nom]=" xml:id="w3">kaloda</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
+						<w xml:id="w1" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">A</w>
+						<w xml:id="w2" lemma="házasság" pos="NOUN" msd="Case=Nom|Number=Sing" type="ház[/N]=ház+as[_Adjz:s/Adj]=as+ság[_Nz_Abstr/N]=ság+[Nom]=">házasság</w>
+						<w xml:id="w3" lemma="kaloda" pos="NOUN" msd="Case=Nom|Number=Sing" type="kaloda[/N]=kaloda+[Nom]=">kaloda</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="ne" msd="PronType=Neg" pos="ADV" type="ne[/Adv]=ne" xml:id="w4">Ne</w>
-						<w lemma="dug" msd="Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="dug[/V]=dug+d[Sbjv.Def.2Sg]=d" xml:id="w5">dugd</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w6">a</w>
-						<w lemma="láb" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" pos="NOUN" type="láb[/N]=láb+ad[Poss.2Sg]=ad+[Nom]=" xml:id="w7">lábad</w>
-						<w lemma="oda" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" type="oda[/Adv|Pro]=oda" xml:id="w8">oda</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">!</pc>
+						<w xml:id="w4" lemma="ne" pos="ADV" msd="PronType=Neg" type="ne[/Adv]=ne">Ne</w>
+						<w xml:id="w5" lemma="dug" pos="VERB" msd="Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" type="dug[/V]=dug+d[Sbjv.Def.2Sg]=d">dugd</w>
+						<w xml:id="w6" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w7" lemma="láb" pos="NOUN" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" type="láb[/N]=láb+ad[Poss.2Sg]=ad+[Nom]=">lábad</w>
+						<w xml:id="w8" lemma="oda" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" type="oda[/Adv|Pro]=oda">oda</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Hosszúhetény (Baranya)</p>

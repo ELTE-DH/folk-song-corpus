@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1162" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1162" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,36 +107,36 @@
 				<head>[Túl a vizen szenestőke. …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="túl" msd="_" pos="ADV" type="túl[/Prev]=túl" xml:id="w1">Túl</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w2">a</w>
-						<w lemma="viz" msd="Case=Nom|Number=Sing" pos="NOUN" type="no" xml:id="w3">vizen</w>
-						<w lemma="szenestőke" msd="Case=Nom|Number=Sing" pos="NOUN" type="szenes[/N]=szenes+tőke[/N]=tőke+[Nom]=" xml:id="w4">szenestőke</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">.</pc>
+						<w xml:id="w1" lemma="túl" pos="ADV" msd="_" type="túl[/Prev]=túl">Túl</w>
+						<w xml:id="w2" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w3" lemma="viz" pos="NOUN" msd="Case=Nom|Number=Sing" type="no">vizen</w>
+						<w xml:id="w4" lemma="szenestőke" pos="NOUN" msd="Case=Nom|Number=Sing" type="szenes[/N]=szenes+tőke[/N]=tőke+[Nom]=">szenestőke</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">.</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="szép" msd="Case=Nom|Degree=Cmp|Number=Sing" pos="ADJ" type="szép[/Adj]=sze+bb[_Comp/Adj]=bb+[Nom]=" xml:id="w5">Szebb</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w6">a</w>
-						<w lemma="barna" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="barna[/Adj|col]=barna+[Nom]=" xml:id="w7">barna</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">,</pc>
-						<w lemma="mint" msd="_" pos="SCONJ" type="mint[/Cnj]=mint" xml:id="w8">mint</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w9">a</w>
-						<w lemma="szőke" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="szőke[/Adj|col]=szőke+[Nom]=" xml:id="w10">szőke</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">.</pc>
+						<w xml:id="w5" lemma="szép" pos="ADJ" msd="Case=Nom|Degree=Cmp|Number=Sing" type="szép[/Adj]=sze+bb[_Comp/Adj]=bb+[Nom]=">Szebb</w>
+						<w xml:id="w6" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w7" lemma="barna" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="barna[/Adj|col]=barna+[Nom]=">barna</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w8" lemma="mint" pos="SCONJ" msd="_" type="mint[/Cnj]=mint">mint</w>
+						<w xml:id="w9" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w10" lemma="szőke" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="szőke[/Adj|col]=szőke+[Nom]=">szőke</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">.</pc>
 					</l>
 					<l xml:id="l3">
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w11">A</w>
-						<w lemma="barna" msd="Case=Abl|Degree=Pos|Number=Sing" pos="ADJ" type="barna[/Adj|col]=barná+tól[Abl]=tól" xml:id="w12">barnától</w>
-						<w lemma="vám" msd="Case=Acc|Number=Sing" pos="NOUN" type="vám[/N]=vám+ot[Acc]=ot" xml:id="w13">vámot</w>
-						<w lemma="kér" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="kér[/V]=kér+nek[Prs.NDef.3Pl]=nek" xml:id="w14">kérnek</w>
-						<pc join="left" pos="PUNCT" xml:id="pc4">,</pc>
+						<w xml:id="w11" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">A</w>
+						<w xml:id="w12" lemma="barna" pos="ADJ" msd="Case=Abl|Degree=Pos|Number=Sing" type="barna[/Adj|col]=barná+tól[Abl]=tól">barnától</w>
+						<w xml:id="w13" lemma="vám" pos="NOUN" msd="Case=Acc|Number=Sing" type="vám[/N]=vám+ot[Acc]=ot">vámot</w>
+						<w xml:id="w14" lemma="kér" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="kér[/V]=kér+nek[Prs.NDef.3Pl]=nek">kérnek</w>
+						<pc xml:id="pc4" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l4">
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w15">A</w>
-						<w lemma="szőke" msd="Case=Sub|Degree=Pos|Number=Sing" pos="ADJ" type="szőke[/Adj|col]=szőké+re[Subl]=re" xml:id="w16">szőkére</w>
-						<w lemma="rá" msd="_" pos="ADV" type="rá[/Prev]=rá" xml:id="w17">rá</w>
-						<w lemma="se" msd="PronType=Neg" pos="ADV" type="se[/Adv]=se" xml:id="w18">se</w>
-						<w lemma="néz" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="néz[/V]=néz+nek[Prs.NDef.3Pl]=nek" xml:id="w19">néznek</w>
-						<pc join="left" pos="PUNCT" xml:id="pc5">.</pc>
+						<w xml:id="w15" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">A</w>
+						<w xml:id="w16" lemma="szőke" pos="ADJ" msd="Case=Sub|Degree=Pos|Number=Sing" type="szőke[/Adj|col]=szőké+re[Subl]=re">szőkére</w>
+						<w xml:id="w17" lemma="rá" pos="ADV" msd="_" type="rá[/Prev]=rá">rá</w>
+						<w xml:id="w18" lemma="se" pos="ADV" msd="PronType=Neg" type="se[/Adv]=se">se</w>
+						<w xml:id="w19" lemma="néz" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="néz[/V]=néz+nek[Prs.NDef.3Pl]=nek">néznek</w>
+						<pc xml:id="pc5" join="left" pos="PUNCT">.</pc>
 					</l>
 				</lg>
 				<p>Asszonynépe (Alsó-Fehér)</p>

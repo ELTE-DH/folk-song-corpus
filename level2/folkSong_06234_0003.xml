@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_0003" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_0003" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,33 +107,33 @@
 				<head>[Este van már, alkonyul, …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="este" msd="_" pos="ADV" type="este[/Adv]=este" xml:id="w1">Este</w>
-						<w lemma="van" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="van[/V]=van+[Prs.NDef.3Sg]=" xml:id="w2">van</w>
-						<w lemma="már" msd="_" pos="ADV" type="már[/Adv]=már" xml:id="w3">már</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
-						<w lemma="alkonyul" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="alkonyul[/V]=alkonyul+[Prs.NDef.3Sg]=" xml:id="w4">alkonyul</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">,</pc>
+						<w xml:id="w1" lemma="este" pos="ADV" msd="_" type="este[/Adv]=este">Este</w>
+						<w xml:id="w2" lemma="van" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="van[/V]=van+[Prs.NDef.3Sg]=">van</w>
+						<w xml:id="w3" lemma="már" pos="ADV" msd="_" type="már[/Adv]=már">már</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w4" lemma="alkonyul" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="alkonyul[/V]=alkonyul+[Prs.NDef.3Sg]=">alkonyul</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="nyuszi" msd="Case=Nom|Number=Sing" pos="NOUN" type="nyuszi[/N]=nyuszi+[Nom]=" xml:id="w5">Nyuszi</w>
-						<w lemma="fül" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" type="fül[/N]=fül+e[Poss.3Sg]=e+[Nom]=" xml:id="w6">füle</w>
-						<w lemma="lekonyul" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="le[/Prev]=le+konyul[/V]=konyul+[Prs.NDef.3Sg]=" xml:id="w7">lekonyul</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">,</pc>
+						<w xml:id="w5" lemma="nyuszi" pos="NOUN" msd="Case=Nom|Number=Sing" type="nyuszi[/N]=nyuszi+[Nom]=">Nyuszi</w>
+						<w xml:id="w6" lemma="fül" pos="NOUN" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" type="fül[/N]=fül+e[Poss.3Sg]=e+[Nom]=">füle</w>
+						<w xml:id="w7" lemma="lekonyul" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="le[/Prev]=le+konyul[/V]=konyul+[Prs.NDef.3Sg]=">lekonyul</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l3">
-						<w lemma="dorombol" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="dorombol[/V]=dorombol+[Prs.NDef.3Sg]=" xml:id="w8">Dorombol</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w9">a</w>
-						<w lemma="kis" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="kis[/Adj|Attr]=kis+[Nom]=" xml:id="w10">kis</w>
-						<w lemma="cica" msd="Case=Nom|Number=Sing" pos="NOUN" type="cica[/N]=cica+[Nom]=" xml:id="w11">cica</w>
-						<pc join="left" pos="PUNCT" xml:id="pc4">.</pc>
+						<w xml:id="w8" lemma="dorombol" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="dorombol[/V]=dorombol+[Prs.NDef.3Sg]=">Dorombol</w>
+						<w xml:id="w9" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w10" lemma="kis" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="kis[/Adj|Attr]=kis+[Nom]=">kis</w>
+						<w xml:id="w11" lemma="cica" pos="NOUN" msd="Case=Nom|Number=Sing" type="cica[/N]=cica+[Nom]=">cica</w>
+						<pc xml:id="pc4" join="left" pos="PUNCT">.</pc>
 					</l>
 					<l xml:id="l4">
-						<w lemma="alszik" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="alszik[/V]=alud+j[Sbjv.NDef.2Sg]=j" xml:id="w12">Aludj</w>
-						<w lemma="te" msd="Case=Nom|Number=Sing|Person=2|PronType=Prs" pos="PRON" type="te[/N|Pro]=te+[2Sg]=+[Nom]=" xml:id="w13">te</w>
-						<w lemma="is" msd="_" pos="ADV" type="is[/Adv]=is" xml:id="w14">is</w>
-						<pc join="left" pos="PUNCT" xml:id="pc5">,</pc>
-						<w lemma="Marika" msd="Case=Nom|Number=Sing" pos="PROPN" type="Marika[/N]=Marika+[Nom]=" xml:id="w15">Marika</w>
-						<pc join="left" pos="PUNCT" xml:id="pc6">!</pc>
+						<w xml:id="w12" lemma="alszik" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" type="alszik[/V]=alud+j[Sbjv.NDef.2Sg]=j">Aludj</w>
+						<w xml:id="w13" lemma="te" pos="PRON" msd="Case=Nom|Number=Sing|Person=2|PronType=Prs" type="te[/N|Pro]=te+[2Sg]=+[Nom]=">te</w>
+						<w xml:id="w14" lemma="is" pos="ADV" msd="_" type="is[/Adv]=is">is</w>
+						<pc xml:id="pc5" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w15" lemma="Marika" pos="PROPN" msd="Case=Nom|Number=Sing" type="Marika[/N]=Marika+[Nom]=">Marika</w>
+						<pc xml:id="pc6" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Garabonc (Zala)</p>

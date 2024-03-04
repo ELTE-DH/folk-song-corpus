@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1048" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1048" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,18 +107,18 @@
 				<head>[A menyasszony új ruhája, …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w1">A</w>
-						<w lemma="menyasszony" msd="Case=Nom|Number=Sing" pos="NOUN" type="meny[/N]=meny+asszony[/N]=asszony+[Nom]=" xml:id="w2">menyasszony</w>
-						<w lemma="új" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="új[/Adj]=új+[Nom]=" xml:id="w3">új</w>
-						<w lemma="ruha" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" type="ruha[/N]=ruhá+ja[Poss.3Sg]=ja+[Nom]=" xml:id="w4">ruhája</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
+						<w xml:id="w1" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">A</w>
+						<w xml:id="w2" lemma="menyasszony" pos="NOUN" msd="Case=Nom|Number=Sing" type="meny[/N]=meny+asszony[/N]=asszony+[Nom]=">menyasszony</w>
+						<w xml:id="w3" lemma="új" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="új[/Adj]=új+[Nom]=">új</w>
+						<w xml:id="w4" lemma="ruha" pos="NOUN" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" type="ruha[/N]=ruhá+ja[Poss.3Sg]=ja+[Nom]=">ruhája</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="máma" msd="_" pos="ADV" type="máma[/Adv]=máma" xml:id="w5">Máma</w>
-						<w lemma="rí" msd="VerbForm=Trans" pos="ADV" type="rí[/V]=rí+va[_AdvPtcp/Adv]=va" xml:id="w6">ríva</w>
-						<w lemma="vesz" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" type="vesz[/V]=ve+tte[Pst.Def.3Sg]=tte" xml:id="w7">vette</w>
-						<w lemma="ő" msd="Case=Sub|Number=Sing|Person=3|PronType=Prs" pos="PRON" type="ő[/N|Pro]=+rá[Subl]=rá+ja[3Sg]=ja" xml:id="w8">rája</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">.</pc>
+						<w xml:id="w5" lemma="máma" pos="ADV" msd="_" type="máma[/Adv]=máma">Máma</w>
+						<w xml:id="w6" lemma="rí" pos="ADV" msd="VerbForm=Trans" type="rí[/V]=rí+va[_AdvPtcp/Adv]=va">ríva</w>
+						<w xml:id="w7" lemma="vesz" pos="VERB" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" type="vesz[/V]=ve+tte[Pst.Def.3Sg]=tte">vette</w>
+						<w xml:id="w8" lemma="ő" pos="PRON" msd="Case=Sub|Number=Sing|Person=3|PronType=Prs" type="ő[/N|Pro]=+rá[Subl]=rá+ja[3Sg]=ja">rája</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">.</pc>
 					</l>
 				</lg>
 				<p>Kapuvár (Sopron)</p>

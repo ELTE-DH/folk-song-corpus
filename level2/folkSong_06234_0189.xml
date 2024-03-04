@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_0189" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_0189" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,38 +107,38 @@
 				<head>[Hegyen hó, …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="hegy" msd="Case=Sup|Number=Sing" pos="NOUN" type="hegy[/N]=hegy+en[Supe]=en" xml:id="w1">Hegyen</w>
-						<w lemma="hó" msd="Case=Nom|Number=Sing" pos="NOUN" type="hó[/N]=hó+[Nom]=" xml:id="w2">hó</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
+						<w xml:id="w1" lemma="hegy" pos="NOUN" msd="Case=Sup|Number=Sing" type="hegy[/N]=hegy+en[Supe]=en">Hegyen</w>
+						<w xml:id="w2" lemma="hó" pos="NOUN" msd="Case=Nom|Number=Sing" type="hó[/N]=hó+[Nom]=">hó</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="völgy" msd="Case=Ine|Number=Sing" pos="NOUN" type="völgy[/N]=völgy+ben[Ine]=ben" xml:id="w3">Völgyben</w>
-						<w lemma="tó" msd="Case=Nom|Number=Sing" pos="NOUN" type="tó[/N]=tó+[Nom]=" xml:id="w4">tó</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">;</pc>
+						<w xml:id="w3" lemma="völgy" pos="NOUN" msd="Case=Ine|Number=Sing" type="völgy[/N]=völgy+ben[Ine]=ben">Völgyben</w>
+						<w xml:id="w4" lemma="tó" pos="NOUN" msd="Case=Nom|Number=Sing" type="tó[/N]=tó+[Nom]=">tó</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">;</pc>
 					</l>
 					<l xml:id="l3">
-						<w lemma="harminckettő" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" type="harminckettő[/Num]=harminckettő+[Nom]=" xml:id="w5">Harminckettő</w>
+						<w xml:id="w5" lemma="harminckettő" pos="NUM" msd="Case=Nom|Number=Sing|NumType=Card" type="harminckettő[/Num]=harminckettő+[Nom]=">Harminckettő</w>
 					</l>
 					<l xml:id="l4">
-						<w lemma="egy" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" type="egy[/Num]=egy+[Nom]=" xml:id="w6">Egy</w>
-						<w lemma="se" msd="PronType=Neg" pos="ADV" type="se[/Adv]=se" xml:id="w7">se</w>
-						<w lemma="jó" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="jó[/Adj]=jó+[Nom]=" xml:id="w8">jó</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">.</pc>
+						<w xml:id="w6" lemma="egy" pos="NUM" msd="Case=Nom|Number=Sing|NumType=Card" type="egy[/Num]=egy+[Nom]=">Egy</w>
+						<w xml:id="w7" lemma="se" pos="ADV" msd="PronType=Neg" type="se[/Adv]=se">se</w>
+						<w xml:id="w8" lemma="jó" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="jó[/Adj]=jó+[Nom]=">jó</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">.</pc>
 					</l>
 					<l xml:id="l5">
-						<pc pos="PUNCT" xml:id="pc4">(</pc>
-						<w lemma="ősz" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="ősz[/Adj]=ősz+[Nom]=" xml:id="w9">Ősz</w>
-						<w lemma="haj" msd="Case=Nom|Number=Sing" pos="NOUN" type="haj[/N]=haj+[Nom]=" xml:id="w10">haj</w>
-						<pc join="left" pos="PUNCT" xml:id="pc5">,</pc>
-						<w lemma="könnyes" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="könny[/N]=könny+es[_Adjz:s/Adj]=es+[Nom]=" xml:id="w11">könnyes</w>
-						<w lemma="szem" msd="Case=Nom|Number=Sing" pos="NOUN" type="szem[/N]=szem+[Nom]=" xml:id="w12">szem</w>
-						<pc join="left" pos="PUNCT" xml:id="pc6">,</pc>
-						<w lemma="rossz" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="rossz[/Adj]=rossz+[Nom]=" xml:id="w13">rossz</w>
-						<w lemma="fog" msd="Case=Nom|Number=Plur" pos="NOUN" type="fog[/N]=fog+ak[Pl]=ak+[Nom]=" xml:id="w14">fogak</w>
-						<pc join="left" pos="PUNCT" xml:id="pc7">:</pc>
-						<w lemma="öreg" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="öreg[/Adj]=öreg+[Nom]=" xml:id="w15">öreg</w>
-						<w lemma="ember" msd="Case=Nom|Number=Sing" pos="NOUN" type="ember[/N]=ember+[Nom]=" xml:id="w16">ember</w>
-						<pc join="left" pos="PUNCT" xml:id="pc8">)</pc>
+						<pc xml:id="pc4" join="right" pos="PUNCT">(</pc>
+						<w xml:id="w9" lemma="ősz" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="ősz[/Adj]=ősz+[Nom]=">Ősz</w>
+						<w xml:id="w10" lemma="haj" pos="NOUN" msd="Case=Nom|Number=Sing" type="haj[/N]=haj+[Nom]=">haj</w>
+						<pc xml:id="pc5" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w11" lemma="könnyes" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="könny[/N]=könny+es[_Adjz:s/Adj]=es+[Nom]=">könnyes</w>
+						<w xml:id="w12" lemma="szem" pos="NOUN" msd="Case=Nom|Number=Sing" type="szem[/N]=szem+[Nom]=">szem</w>
+						<pc xml:id="pc6" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w13" lemma="rossz" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="rossz[/Adj]=rossz+[Nom]=">rossz</w>
+						<w xml:id="w14" lemma="fog" pos="NOUN" msd="Case=Nom|Number=Plur" type="fog[/N]=fog+ak[Pl]=ak+[Nom]=">fogak</w>
+						<pc xml:id="pc7" join="left" pos="PUNCT">:</pc>
+						<w xml:id="w15" lemma="öreg" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="öreg[/Adj]=öreg+[Nom]=">öreg</w>
+						<w xml:id="w16" lemma="ember" pos="NOUN" msd="Case=Nom|Number=Sing" type="ember[/N]=ember+[Nom]=">ember</w>
+						<pc xml:id="pc8" join="left" pos="PUNCT">)</pc>
 					</l>
 				</lg>
 			</div>

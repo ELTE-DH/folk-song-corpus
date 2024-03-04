@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_0997" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_0997" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,17 +107,17 @@
 				<head>[Ne hallgass mendemondára: …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="ne" msd="PronType=Neg" pos="ADV" type="ne[/Adv]=ne" xml:id="w1">Ne</w>
-						<w lemma="hallgat" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="hallgat[/V]=hallgas+s[Sbjv.NDef.2Sg]=s" xml:id="w2">hallgass</w>
-						<w lemma="mendemonda" msd="Case=Sub|Number=Sing" pos="NOUN" type="mendemonda[/N]=mendemondá+ra[Subl]=ra" xml:id="w3">mendemondára</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">:</pc>
+						<w xml:id="w1" lemma="ne" pos="ADV" msd="PronType=Neg" type="ne[/Adv]=ne">Ne</w>
+						<w xml:id="w2" lemma="hallgat" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" type="hallgat[/V]=hallgas+s[Sbjv.NDef.2Sg]=s">hallgass</w>
+						<w xml:id="w3" lemma="mendemonda" pos="NOUN" msd="Case=Sub|Number=Sing" type="mendemonda[/N]=mendemondá+ra[Subl]=ra">mendemondára</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">:</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="ül" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="ül[/V]=ül+j[Sbjv.NDef.2Sg]=j" xml:id="w4">Ülj</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w5">a</w>
-						<w lemma="térd" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" pos="NOUN" type="térd[/N]=térd+em[Poss.1Sg]=em+[Nom]=" xml:id="w6">térdem</w>
-						<w lemma="kalács" msd="Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" type="kalács[/N]=kalács+a[Poss.3Sg]=á+ra[Subl]=ra" xml:id="w7">kalácsára</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">!</pc>
+						<w xml:id="w4" lemma="ül" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" type="ül[/V]=ül+j[Sbjv.NDef.2Sg]=j">Ülj</w>
+						<w xml:id="w5" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w6" lemma="térd" pos="NOUN" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" type="térd[/N]=térd+em[Poss.1Sg]=em+[Nom]=">térdem</w>
+						<w xml:id="w7" lemma="kalács" pos="NOUN" msd="Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3" type="kalács[/N]=kalács+a[Poss.3Sg]=á+ra[Subl]=ra">kalácsára</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Szépkenyerűszentmárton (Szolnok-Doboka)</p>

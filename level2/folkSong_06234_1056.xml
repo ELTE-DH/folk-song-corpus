@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1056" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1056" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,18 +107,18 @@
 				<head>[Sárga csikó, sárga nyereg. …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="sárga" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="sárga[/Adj|col]=sárga+[Nom]=" xml:id="w1">Sárga</w>
-						<w lemma="csikó" msd="Case=Nom|Number=Sing" pos="NOUN" type="csikó[/N]=csikó+[Nom]=" xml:id="w2">csikó</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
-						<w lemma="sárga" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="sárga[/Adj|col]=sárga+[Nom]=" xml:id="w3">sárga</w>
-						<w lemma="nyereg" msd="Case=Nom|Number=Sing" pos="NOUN" type="nyereg[/N]=nyereg+[Nom]=" xml:id="w4">nyereg</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">.</pc>
+						<w xml:id="w1" lemma="sárga" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="sárga[/Adj|col]=sárga+[Nom]=">Sárga</w>
+						<w xml:id="w2" lemma="csikó" pos="NOUN" msd="Case=Nom|Number=Sing" type="csikó[/N]=csikó+[Nom]=">csikó</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w3" lemma="sárga" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="sárga[/Adj|col]=sárga+[Nom]=">sárga</w>
+						<w xml:id="w4" lemma="nyereg" pos="NOUN" msd="Case=Nom|Number=Sing" type="nyereg[/N]=nyereg+[Nom]=">nyereg</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">.</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="vőlegény" msd="Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1" pos="NOUN" type="vő[/N]=vő+legény[/N]=legény+ünk[Poss.1Pl]=ünk+[Nom]=" xml:id="w5">Vőlegényünk</w>
-						<w lemma="derék" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="derék[/Adj]=derék+[Nom]=" xml:id="w6">derék</w>
-						<w lemma="gyerek" msd="Case=Nom|Number=Sing" pos="NOUN" type="gyerek[/N]=gyerek+[Nom]=" xml:id="w7">gyerek</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">.</pc>
+						<w xml:id="w5" lemma="vőlegény" pos="NOUN" msd="Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1" type="vő[/N]=vő+legény[/N]=legény+ünk[Poss.1Pl]=ünk+[Nom]=">Vőlegényünk</w>
+						<w xml:id="w6" lemma="derék" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="derék[/Adj]=derék+[Nom]=">derék</w>
+						<w xml:id="w7" lemma="gyerek" pos="NOUN" msd="Case=Nom|Number=Sing" type="gyerek[/N]=gyerek+[Nom]=">gyerek</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">.</pc>
 					</l>
 				</lg>
 				<p>Kapuvár (Sopron)</p>

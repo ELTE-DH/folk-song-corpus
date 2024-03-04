@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1003" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1003" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,19 +107,19 @@
 				<head>[Ez az élet minket illet, …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="ez" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" pos="PRON" type="ez[/Det|Pro]=ez+[Nom]=" xml:id="w1">Ez</w>
-						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" type="az[/Det|Art.Def]=az" xml:id="w2">az</w>
-						<w lemma="élet" msd="Case=Nom|Number=Sing" pos="NOUN" type="élet[/N]=élet+[Nom]=" xml:id="w3">élet</w>
-						<w lemma="mi" msd="Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs" pos="PRON" type="mi[/N|Pro|Int]=mi+nk[Poss.1Pl]=nk+et[Acc]=et" xml:id="w4">minket</w>
-						<w lemma="illet" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="illet[/V]=illet+[Prs.NDef.3Sg]=" xml:id="w5">illet</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
+						<w xml:id="w1" lemma="ez" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" type="ez[/Det|Pro]=ez+[Nom]=">Ez</w>
+						<w xml:id="w2" lemma="az" pos="DET" msd="Definite=Def|PronType=Art" type="az[/Det|Art.Def]=az">az</w>
+						<w xml:id="w3" lemma="élet" pos="NOUN" msd="Case=Nom|Number=Sing" type="élet[/N]=élet+[Nom]=">élet</w>
+						<w xml:id="w4" lemma="mi" pos="PRON" msd="Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs" type="mi[/N|Pro|Int]=mi+nk[Poss.1Pl]=nk+et[Acc]=et">minket</w>
+						<w xml:id="w5" lemma="illet" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="illet[/V]=illet+[Prs.NDef.3Sg]=">illet</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="nem" msd="PronType=Neg" pos="ADV" type="nem[/Adv]=nem" xml:id="w6">Nem</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w7">a</w>
-						<w lemma="régi" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="régi[/Adj]=régi+[Nom]=" xml:id="w8">régi</w>
-						<w lemma="öreg" msd="Case=Acc|Number=Plur" pos="NOUN" type="öreg[/N]=öreg+ek[Pl]=ek+et[Acc]=et" xml:id="w9">öregeket</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">!</pc>
+						<w xml:id="w6" lemma="nem" pos="ADV" msd="PronType=Neg" type="nem[/Adv]=nem">Nem</w>
+						<w xml:id="w7" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w8" lemma="régi" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="régi[/Adj]=régi+[Nom]=">régi</w>
+						<w xml:id="w9" lemma="öreg" pos="NOUN" msd="Case=Acc|Number=Plur" type="öreg[/N]=öreg+ek[Pl]=ek+et[Acc]=et">öregeket</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Fejér</p>

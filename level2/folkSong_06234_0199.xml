@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_0199" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_0199" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,25 +107,25 @@
 				<head>[Mihelyt meglesz, mindjár megmar; …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="mihelyt" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" pos="PRON" type="mihelyt[/Adv|Pro|Rel]=mihelyt" xml:id="w1">Mihelyt</w>
-						<w lemma="meglesz" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="meg[/Prev]=meg+lesz[/V]=lesz+[Prs.NDef.3Sg]=" xml:id="w2">meglesz</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
-						<w lemma="mindjár" msd="Case=Nom|Number=Sing" pos="NOUN" type="no" xml:id="w3">mindjár</w>
-						<w lemma="megmar" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="meg[/Prev]=meg+mar[/V]=mar+[Prs.NDef.3Sg]=" xml:id="w4">megmar</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">;</pc>
+						<w xml:id="w1" lemma="mihelyt" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" type="mihelyt[/Adv|Pro|Rel]=mihelyt">Mihelyt</w>
+						<w xml:id="w2" lemma="meglesz" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="meg[/Prev]=meg+lesz[/V]=lesz+[Prs.NDef.3Sg]=">meglesz</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w3" lemma="mindjár" pos="NOUN" msd="Case=Nom|Number=Sing" type="no">mindjár</w>
+						<w xml:id="w4" lemma="megmar" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="meg[/Prev]=meg+mar[/V]=mar+[Prs.NDef.3Sg]=">megmar</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">;</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="mihelyt" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" pos="PRON" type="mihelyt[/Adv|Pro|Rel]=mihelyt" xml:id="w5">Mihelyt</w>
-						<w lemma="megmar" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="meg[/Prev]=meg+mar[/V]=mar+[Prs.NDef.3Sg]=" xml:id="w6">megmar</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">,</pc>
-						<w lemma="mindjár" msd="Case=Nom|Number=Sing" pos="NOUN" type="no" xml:id="w7">mindjár</w>
-						<w lemma="meghal" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="meg[/Prev]=meg+hal[/V]=hal+[Prs.NDef.3Sg]=" xml:id="w8">meghal</w>
-						<pc join="left" pos="PUNCT" xml:id="pc4">.</pc>
+						<w xml:id="w5" lemma="mihelyt" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" type="mihelyt[/Adv|Pro|Rel]=mihelyt">Mihelyt</w>
+						<w xml:id="w6" lemma="megmar" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="meg[/Prev]=meg+mar[/V]=mar+[Prs.NDef.3Sg]=">megmar</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w7" lemma="mindjár" pos="NOUN" msd="Case=Nom|Number=Sing" type="no">mindjár</w>
+						<w xml:id="w8" lemma="meghal" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="meg[/Prev]=meg+hal[/V]=hal+[Prs.NDef.3Sg]=">meghal</w>
+						<pc xml:id="pc4" join="left" pos="PUNCT">.</pc>
 					</l>
 					<l xml:id="l3">
-						<pc pos="PUNCT" xml:id="pc5">(</pc>
-						<w lemma="szikra" msd="Case=Nom|Number=Sing" pos="NOUN" type="Szikra[/N]=Szikra+[Nom]=" xml:id="w9">Szikra</w>
-						<pc join="left" pos="PUNCT" xml:id="pc6">)</pc>
+						<pc xml:id="pc5" join="right" pos="PUNCT">(</pc>
+						<w xml:id="w9" lemma="szikra" pos="NOUN" msd="Case=Nom|Number=Sing" type="Szikra[/N]=Szikra+[Nom]=">Szikra</w>
+						<pc xml:id="pc6" join="left" pos="PUNCT">)</pc>
 					</l>
 				</lg>
 				<p>Nagyszalonta (Bihar)</p>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1769" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1769" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,34 +107,34 @@
 				<head>[Magyarország dolga bajos, …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="Magyarország" msd="Case=Nom|Number=Sing" pos="PROPN" type="Magyarország[/N]=Magyarország+[Nom]=" xml:id="w1">Magyarország</w>
-						<w lemma="dolog" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" type="dolog[/N]=dolg+a[Poss.3Sg]=a+[Nom]=" xml:id="w2">dolga</w>
-						<w lemma="bajos" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="Baj[/N]=baj+os[_Adjz:s/Adj]=os+[Nom]=" xml:id="w3">bajos</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
+						<w xml:id="w1" lemma="Magyarország" pos="PROPN" msd="Case=Nom|Number=Sing" type="Magyarország[/N]=Magyarország+[Nom]=">Magyarország</w>
+						<w xml:id="w2" lemma="dolog" pos="NOUN" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" type="dolog[/N]=dolg+a[Poss.3Sg]=a+[Nom]=">dolga</w>
+						<w xml:id="w3" lemma="bajos" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="Baj[/N]=baj+os[_Adjz:s/Adj]=os+[Nom]=">bajos</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="mert" msd="_" pos="SCONJ" type="mert[/Cnj]=mert" xml:id="w4">Mert</w>
-						<w lemma="nincs" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="nincs[/V]=nincsen+[Prs.NDef.3Sg]=" xml:id="w5">nincsen</w>
-						<w lemma="bent" msd="_" pos="ADV" type="bent[/Adv]=bent" xml:id="w6">bent</w>
-						<w lemma="Kossuth" msd="Case=Nom|Number=Sing" pos="PROPN" type="Kossuth[/N]=Kossuth+[Nom]=" xml:id="w7">Kossuth</w>
-						<w lemma="Lajos" msd="Case=Nom|Number=Sing" pos="PROPN" type="Lajos[/N]=Lajos+[Nom]=" xml:id="w8">Lajos</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">.</pc>
+						<w xml:id="w4" lemma="mert" pos="SCONJ" msd="_" type="mert[/Cnj]=mert">Mert</w>
+						<w xml:id="w5" lemma="nincs" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="nincs[/V]=nincsen+[Prs.NDef.3Sg]=">nincsen</w>
+						<w xml:id="w6" lemma="bent" pos="ADV" msd="_" type="bent[/Adv]=bent">bent</w>
+						<w xml:id="w7" lemma="Kossuth" pos="PROPN" msd="Case=Nom|Number=Sing" type="Kossuth[/N]=Kossuth+[Nom]=">Kossuth</w>
+						<w xml:id="w8" lemma="Lajos" pos="PROPN" msd="Case=Nom|Number=Sing" type="Lajos[/N]=Lajos+[Nom]=">Lajos</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">.</pc>
 					</l>
 					<l xml:id="l3">
-						<w lemma="de" msd="_" pos="CONJ" type="de[/Cnj]=de" xml:id="w9">De</w>
-						<w lemma="ha" msd="_" pos="SCONJ" type="ha[/Cnj]=ha" xml:id="w10">ha</w>
-						<w lemma="bejön" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="be[/Prev]=be+jön[/V]=jön+[Prs.NDef.3Sg]=" xml:id="w11">bejön</w>
-						<w lemma="Kossuth" msd="Case=Nom|Number=Sing" pos="PROPN" type="Kossuth[/N]=Kossuth+[Nom]=" xml:id="w12">Kossuth</w>
-						<w lemma="Lajos" msd="Case=Nom|Number=Sing" pos="PROPN" type="Lajos[/N]=Lajos+[Nom]=" xml:id="w13">Lajos</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">,</pc>
+						<w xml:id="w9" lemma="de" pos="CONJ" msd="_" type="de[/Cnj]=de">De</w>
+						<w xml:id="w10" lemma="ha" pos="SCONJ" msd="_" type="ha[/Cnj]=ha">ha</w>
+						<w xml:id="w11" lemma="bejön" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="be[/Prev]=be+jön[/V]=jön+[Prs.NDef.3Sg]=">bejön</w>
+						<w xml:id="w12" lemma="Kossuth" pos="PROPN" msd="Case=Nom|Number=Sing" type="Kossuth[/N]=Kossuth+[Nom]=">Kossuth</w>
+						<w xml:id="w13" lemma="Lajos" pos="PROPN" msd="Case=Nom|Number=Sing" type="Lajos[/N]=Lajos+[Nom]=">Lajos</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l4">
-						<w lemma="mindjárt" msd="_" pos="ADV" type="mindjárt[/Adv]=mindjárt" xml:id="w14">Mindjárt</w>
-						<w lemma="nem" msd="PronType=Neg" pos="ADV" type="nem[/Adv]=nem" xml:id="w15">nem</w>
-						<w lemma="lesz" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="lesz[/V]=lesz+[Prs.NDef.3Sg]=" xml:id="w16">lesz</w>
-						<w lemma="semmi" msd="Case=Nom|Number=Sing|Person=3|PronType=Tot" pos="PRON" type="semmi[/N|Pro]=semmi+[Nom]=" xml:id="w17">semmi</w>
-						<w lemma="bajos" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="Baj[/N]=baj+os[_Adjz:s/Adj]=os+[Nom]=" xml:id="w18">bajos</w>
-						<pc join="left" pos="PUNCT" xml:id="pc4">.</pc>
+						<w xml:id="w14" lemma="mindjárt" pos="ADV" msd="_" type="mindjárt[/Adv]=mindjárt">Mindjárt</w>
+						<w xml:id="w15" lemma="nem" pos="ADV" msd="PronType=Neg" type="nem[/Adv]=nem">nem</w>
+						<w xml:id="w16" lemma="lesz" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="lesz[/V]=lesz+[Prs.NDef.3Sg]=">lesz</w>
+						<w xml:id="w17" lemma="semmi" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Tot" type="semmi[/N|Pro]=semmi+[Nom]=">semmi</w>
+						<w xml:id="w18" lemma="bajos" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="Baj[/N]=baj+os[_Adjz:s/Adj]=os+[Nom]=">bajos</w>
+						<pc xml:id="pc4" join="left" pos="PUNCT">.</pc>
 					</l>
 				</lg>
 			</div>

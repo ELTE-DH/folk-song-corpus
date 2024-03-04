@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1037" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1037" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,19 +107,19 @@
 				<head>[Akinek ma kedve nincs, …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="aki" msd="Case=Dat|Number=Sing|Person=3|PronType=Rel" pos="PRON" type="aki[/N|Pro|Rel]=aki+nek[Dat]=nek" xml:id="w1">Akinek</w>
-						<w lemma="ma" msd="_" pos="ADV" type="ma[/Adv]=ma" xml:id="w2">ma</w>
-						<w lemma="kedv" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" type="kedv[/N]=kedv+e[Poss.3Sg]=e+[Nom]=" xml:id="w3">kedve</w>
-						<w lemma="nincs" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="nincs[/V]=nincs+[Prs.NDef.3Sg]=" xml:id="w4">nincs</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
+						<w xml:id="w1" lemma="aki" pos="PRON" msd="Case=Dat|Number=Sing|Person=3|PronType=Rel" type="aki[/N|Pro|Rel]=aki+nek[Dat]=nek">Akinek</w>
+						<w xml:id="w2" lemma="ma" pos="ADV" msd="_" type="ma[/Adv]=ma">ma</w>
+						<w xml:id="w3" lemma="kedv" pos="NOUN" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" type="kedv[/N]=kedv+e[Poss.3Sg]=e+[Nom]=">kedve</w>
+						<w xml:id="w4" lemma="nincs" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="nincs[/V]=nincs+[Prs.NDef.3Sg]=">nincs</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="az" msd="Case=Dat|Number=Sing|Person=3|PronType=Dem" pos="PRON" type="az[/Det|Pro]=an+nak[Dat]=nak" xml:id="w5">Annak</w>
-						<w lemma="egy" msd="Definite=Ind|PronType=Art" pos="DET" type="egy[/Det|Art.NDef]=egy" xml:id="w6">egy</w>
-						<w lemma="csepp" msd="Case=Nom|Number=Sing" pos="NOUN" type="csepp[/N]=csepp+[Nom]=" xml:id="w7">csepp</w>
-						<w lemma="ész" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" type="esz[/N]=esz+e[Poss.3Sg]=e+[Nom]=" xml:id="w8">esze</w>
-						<w lemma="sincs" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="sincs[/V]=sincs+[Prs.NDef.3Sg]=" xml:id="w9">sincs</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">!</pc>
+						<w xml:id="w5" lemma="az" pos="PRON" msd="Case=Dat|Number=Sing|Person=3|PronType=Dem" type="az[/Det|Pro]=an+nak[Dat]=nak">Annak</w>
+						<w xml:id="w6" lemma="egy" pos="DET" msd="Definite=Ind|PronType=Art" type="egy[/Det|Art.NDef]=egy">egy</w>
+						<w xml:id="w7" lemma="csepp" pos="NOUN" msd="Case=Nom|Number=Sing" type="csepp[/N]=csepp+[Nom]=">csepp</w>
+						<w xml:id="w8" lemma="ész" pos="NOUN" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" type="esz[/N]=esz+e[Poss.3Sg]=e+[Nom]=">esze</w>
+						<w xml:id="w9" lemma="sincs" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="sincs[/V]=sincs+[Prs.NDef.3Sg]=">sincs</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Fejér</p>

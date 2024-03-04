@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_0004" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_0004" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,29 +107,29 @@
 				<head>[Tente, baba, tente, …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="tente" msd="Case=Nom|Number=Sing" pos="NOUN" type="tente[/N]=tente+[Nom]=" xml:id="w1">Tente</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
-						<w lemma="baba" msd="Case=Nom|Number=Sing" pos="NOUN" type="baba[/N]=baba+[Nom]=" xml:id="w2">baba</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">,</pc>
-						<w lemma="tente" msd="Case=Nom|Number=Sing" pos="NOUN" type="tente[/N]=tente+[Nom]=" xml:id="w3">tente</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">,</pc>
+						<w xml:id="w1" lemma="tente" pos="NOUN" msd="Case=Nom|Number=Sing" type="tente[/N]=tente+[Nom]=">Tente</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w2" lemma="baba" pos="NOUN" msd="Case=Nom|Number=Sing" type="baba[/N]=baba+[Nom]=">baba</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w3" lemma="tente" pos="NOUN" msd="Case=Nom|Number=Sing" type="tente[/N]=tente+[Nom]=">tente</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="Elgyütt" msd="_" pos="ADV" type="no" xml:id="w4">Elgyütt</w>
-						<w lemma="már" msd="_" pos="ADV" type="már[/Adv]=már" xml:id="w5">már</w>
-						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" type="az[/Det|Art.Def]=az" xml:id="w6">az</w>
-						<w lemma="este" msd="Case=Nom|Number=Sing" pos="NOUN" type="este[/N]=este+[Nom]=" xml:id="w7">este</w>
-						<pc join="left" pos="PUNCT" xml:id="pc4">.</pc>
+						<w xml:id="w4" lemma="Elgyütt" pos="ADV" msd="_" type="no">Elgyütt</w>
+						<w xml:id="w5" lemma="már" pos="ADV" msd="_" type="már[/Adv]=már">már</w>
+						<w xml:id="w6" lemma="az" pos="DET" msd="Definite=Def|PronType=Art" type="az[/Det|Art.Def]=az">az</w>
+						<w xml:id="w7" lemma="este" pos="NOUN" msd="Case=Nom|Number=Sing" type="este[/N]=este+[Nom]=">este</w>
+						<pc xml:id="pc4" join="left" pos="PUNCT">.</pc>
 					</l>
 					<l xml:id="l3">
-						<w lemma="alszik" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="alszik[/V]=alud+j[Sbjv.NDef.2Sg]=j" xml:id="w8">Aludj</w>
-						<pc join="left" pos="PUNCT" xml:id="pc5">,</pc>
-						<w lemma="ingó-bingó" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="ingó-bingó[/Adj]=ingó-bingó+[Nom]=" xml:id="w9">ingó-bingó</w>
+						<w xml:id="w8" lemma="alszik" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" type="alszik[/V]=alud+j[Sbjv.NDef.2Sg]=j">Aludj</w>
+						<pc xml:id="pc5" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w9" lemma="ingó-bingó" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="ingó-bingó[/Adj]=ingó-bingó+[Nom]=">ingó-bingó</w>
 					</l>
 					<l xml:id="l4">
-						<w lemma="piros" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="piros[/Adj|col]=piros+[Nom]=" xml:id="w10">Piros</w>
-						<w lemma="rózsabimbó" msd="Case=Nom|Number=Sing" pos="NOUN" type="rózsa[/N]=rózsa+bimbó[/N]=bimbó+[Nom]=" xml:id="w11">rózsabimbó</w>
-						<pc join="left" pos="PUNCT" xml:id="pc6">!</pc>
+						<w xml:id="w10" lemma="piros" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="piros[/Adj|col]=piros+[Nom]=">Piros</w>
+						<w xml:id="w11" lemma="rózsabimbó" pos="NOUN" msd="Case=Nom|Number=Sing" type="rózsa[/N]=rózsa+bimbó[/N]=bimbó+[Nom]=">rózsabimbó</w>
+						<pc xml:id="pc6" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Jászárokszállás (Szolnok)</p>

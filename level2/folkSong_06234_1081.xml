@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1081" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1081" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,16 +107,16 @@
 				<head>[Bárcsak ez az éccaka …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="bárcsak" msd="_" pos="ADV" type="bárcsak[/Adv]=bárcsak" xml:id="w1">Bárcsak</w>
-						<w lemma="ez" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" pos="PRON" type="ez[/Det|Pro]=ez+[Nom]=" xml:id="w2">ez</w>
-						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" type="az[/Det|Art.Def]=az" xml:id="w3">az</w>
-						<w lemma="éccaka" msd="Case=Nom|Number=Sing" pos="NOUN" type="no" xml:id="w4">éccaka</w>
+						<w xml:id="w1" lemma="bárcsak" pos="ADV" msd="_" type="bárcsak[/Adv]=bárcsak">Bárcsak</w>
+						<w xml:id="w2" lemma="ez" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" type="ez[/Det|Pro]=ez+[Nom]=">ez</w>
+						<w xml:id="w3" lemma="az" pos="DET" msd="Definite=Def|PronType=Art" type="az[/Det|Art.Def]=az">az</w>
+						<w xml:id="w4" lemma="éccaka" pos="NOUN" msd="Case=Nom|Number=Sing" type="no">éccaka</w>
 					</l>
 					<l xml:id="l2">
-						<w lemma="Szen" msd="Case=Acc|Number=Sing" pos="PROPN" type="Szen[/N]=Szen+t[Acc]=t" xml:id="w5">Szent</w>
-						<w lemma="György-nap" msd="Case=Ter|Number=Sing" pos="PROPN" type="György[/N]=György+[Nom]=+-[Hyph:Hyph]=-+nap[/N]=nap+ig[Ter]=ig" xml:id="w6">György-napig</w>
-						<w lemma="tart" msd="Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="tart[/V]=tart+ana[Cond.NDef.3Sg]=ana" xml:id="w7">tartana</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">!</pc>
+						<w xml:id="w5" lemma="Szen" pos="PROPN" msd="Case=Acc|Number=Sing" type="Szen[/N]=Szen+t[Acc]=t">Szent</w>
+						<w xml:id="w6" lemma="György-nap" pos="PROPN" msd="Case=Ter|Number=Sing" type="György[/N]=György+[Nom]=+-[Hyph:Hyph]=-+nap[/N]=nap+ig[Ter]=ig">György-napig</w>
+						<w xml:id="w7" lemma="tart" pos="VERB" msd="Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="tart[/V]=tart+ana[Cond.NDef.3Sg]=ana">tartana</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Miriszló (Alsó-Fehér)</p>

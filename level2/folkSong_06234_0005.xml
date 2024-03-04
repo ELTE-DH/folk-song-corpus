@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_0005" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_0005" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,26 +107,26 @@
 				<head>[Ring a bölcső, ringadozz! …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="ring" msd="Case=Nom|Number=Sing" pos="NOUN" type="ring[/N]=ring+[Nom]=" xml:id="w1">Ring</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w2">a</w>
-						<w lemma="bölcső" msd="Case=Nom|Number=Sing" pos="NOUN" type="bölcső[/N]=bölcső+[Nom]=" xml:id="w3">bölcső</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
-						<w lemma="ringadoz" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="no" xml:id="w4">ringadozz</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">!</pc>
+						<w xml:id="w1" lemma="ring" pos="NOUN" msd="Case=Nom|Number=Sing" type="ring[/N]=ring+[Nom]=">Ring</w>
+						<w xml:id="w2" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w3" lemma="bölcső" pos="NOUN" msd="Case=Nom|Number=Sing" type="bölcső[/N]=bölcső+[Nom]=">bölcső</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w4" lemma="ringadoz" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" type="no">ringadozz</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">!</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="hajlandó" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="hajlik[/V]=hajl+andó[_FutPtcp/Adj]=andó+[Nom]=" xml:id="w5">Hajlandó</w>
-						<w lemma="szál" msd="Case=Nom|Number=Sing" pos="NOUN" type="szál[/N]=szál+[Nom]=" xml:id="w6">szál</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">,</pc>
-						<w lemma="ingadozik" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="ingadozik[/V]=ingadoz+z[Sbjv.NDef.2Sg]=z" xml:id="w7">ingadozz</w>
-						<pc join="left" pos="PUNCT" xml:id="pc4">!</pc>
+						<w xml:id="w5" lemma="hajlandó" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="hajlik[/V]=hajl+andó[_FutPtcp/Adj]=andó+[Nom]=">Hajlandó</w>
+						<w xml:id="w6" lemma="szál" pos="NOUN" msd="Case=Nom|Number=Sing" type="szál[/N]=szál+[Nom]=">szál</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w7" lemma="ingadozik" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" type="ingadozik[/V]=ingadoz+z[Sbjv.NDef.2Sg]=z">ingadozz</w>
+						<pc xml:id="pc4" join="left" pos="PUNCT">!</pc>
 					</l>
 					<l xml:id="l3">
-						<w lemma="szép" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="szép[/Adj]=szép+[Nom]=" xml:id="w8">Szép</w>
-						<w lemma="leányka" msd="Case=Nom|Number=Sing" pos="NOUN" type="leányka[/N]=leányka+[Nom]=" xml:id="w9">leányka</w>
-						<pc join="left" pos="PUNCT" xml:id="pc5">,</pc>
-						<w lemma="szunnyadozik" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="szunnyadozik[/V]=szunnyadoz+z[Sbjv.NDef.2Sg]=z" xml:id="w10">szunnyadozz</w>
-						<pc join="left" pos="PUNCT" xml:id="pc6">!</pc>
+						<w xml:id="w8" lemma="szép" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="szép[/Adj]=szép+[Nom]=">Szép</w>
+						<w xml:id="w9" lemma="leányka" pos="NOUN" msd="Case=Nom|Number=Sing" type="leányka[/N]=leányka+[Nom]=">leányka</w>
+						<pc xml:id="pc5" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w10" lemma="szunnyadozik" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" type="szunnyadozik[/V]=szunnyadoz+z[Sbjv.NDef.2Sg]=z">szunnyadozz</w>
+						<pc xml:id="pc6" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Fertőszentmiklós (Sopron)</p>

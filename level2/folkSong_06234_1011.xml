@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1011" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1011" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,16 +107,16 @@
 				<head>[Aki ide betéved, …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="aki" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" pos="PRON" type="aki[/N|Pro|Rel]=aki+[Nom]=" xml:id="w1">Aki</w>
-						<w lemma="ide" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" type="ide[/Adv|Pro]=ide" xml:id="w2">ide</w>
-						<w lemma="betéved" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="be[/Prev]=be+téved[/V]=téved+[Prs.NDef.3Sg]=" xml:id="w3">betéved</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
+						<w xml:id="w1" lemma="aki" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" type="aki[/N|Pro|Rel]=aki+[Nom]=">Aki</w>
+						<w xml:id="w2" lemma="ide" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" type="ide[/Adv|Pro]=ide">ide</w>
+						<w xml:id="w3" lemma="betéved" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="be[/Prev]=be+téved[/V]=téved+[Prs.NDef.3Sg]=">betéved</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="dolog" msd="Case=Nom|Number=Sing" pos="NOUN" type="dolog[/N]=dolog+[Nom]=" xml:id="w4">Dolog</w>
-						<w lemma="nélkül" msd="_" pos="ADP" type="nélkül[/Post]=nélkül" xml:id="w5">nélkül</w>
-						<w lemma="megél" msd="Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="meg[/Prev]=meg+él[/V]=él+het[_Mod/V]=het+[Prs.NDef.3Sg]=" xml:id="w6">megélhet</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">.</pc>
+						<w xml:id="w4" lemma="dolog" pos="NOUN" msd="Case=Nom|Number=Sing" type="dolog[/N]=dolog+[Nom]=">Dolog</w>
+						<w xml:id="w5" lemma="nélkül" pos="ADP" msd="_" type="nélkül[/Post]=nélkül">nélkül</w>
+						<w xml:id="w6" lemma="megél" pos="VERB" msd="Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="meg[/Prev]=meg+él[/V]=él+het[_Mod/V]=het+[Prs.NDef.3Sg]=">megélhet</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">.</pc>
 					</l>
 				</lg>
 				<p>Magyarvista (Kolozs)</p>

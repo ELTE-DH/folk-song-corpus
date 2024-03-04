@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_0032" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_0032" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -108,22 +108,22 @@
 				<p>HA VALAKI ELHAGY VALAMIT</p>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="ki" msd="Case=Dat|Number=Sing|Person=3|PronType=Int" pos="PRON" type="ki[/N|Pro|Int]=ki+nek[Dat]=nek" xml:id="w1">Kinek</w>
-						<w lemma="veszik" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" type="veszik[/V]=vesz+ett[Pst.NDef.3Sg]=ett" xml:id="w2">veszett</w>
-						<w lemma="valami" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Ind" pos="PRON" type="valami[/N|Pro]=valami+je[Poss.3Sg]=je+[Nom]=" xml:id="w3">valamije</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">?</pc>
+						<w xml:id="w1" lemma="ki" pos="PRON" msd="Case=Dat|Number=Sing|Person=3|PronType=Int" type="ki[/N|Pro|Int]=ki+nek[Dat]=nek">Kinek</w>
+						<w xml:id="w2" lemma="veszik" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" type="veszik[/V]=vesz+ett[Pst.NDef.3Sg]=ett">veszett</w>
+						<w xml:id="w3" lemma="valami" pos="PRON" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Ind" type="valami[/N|Pro]=valami+je[Poss.3Sg]=je+[Nom]=">valamije</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">?</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="sír" msd="VerbForm=Trans" pos="ADV" type="sír[/V]=sír+va[_AdvPtcp/Adv]=va" xml:id="w4">Sírva</w>
-						<w lemma="rí" msd="VerbForm=Trans" pos="ADV" type="rí[/V]=rí+va[_AdvPtcp/Adv]=va" xml:id="w5">ríva</w>
-						<w lemma="keres" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="keres[/V]=keres+i[Prs.Def.3Sg]=i" xml:id="w6">keresi</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">,</pc>
+						<w xml:id="w4" lemma="sír" pos="ADV" msd="VerbForm=Trans" type="sír[/V]=sír+va[_AdvPtcp/Adv]=va">Sírva</w>
+						<w xml:id="w5" lemma="rí" pos="ADV" msd="VerbForm=Trans" type="rí[/V]=rí+va[_AdvPtcp/Adv]=va">ríva</w>
+						<w xml:id="w6" lemma="keres" pos="VERB" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="keres[/V]=keres+i[Prs.Def.3Sg]=i">keresi</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l3">
-						<w lemma="apa-anya" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" type="apa[/N]=ap+ja[Poss.3Sg]=ja+[Nom]=+-[Hyph:Hyph]=-+anya[/N]=any+ja[Poss.3Sg]=ja+[Nom]=" xml:id="w7">Apja-anyja</w>
-						<w lemma="furkósbot" msd="Case=Ins|Number=Sing" pos="NOUN" type="furkósbot[/N]=furkósbot+tal[Ins]=tal" xml:id="w8">furkósbottal</w>
-						<w lemma="kerget" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="kerget[/V]=kerget+i[Prs.Def.3Sg]=i" xml:id="w9">kergeti</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">.</pc>
+						<w xml:id="w7" lemma="apa-anya" pos="NOUN" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" type="apa[/N]=ap+ja[Poss.3Sg]=ja+[Nom]=+-[Hyph:Hyph]=-+anya[/N]=any+ja[Poss.3Sg]=ja+[Nom]=">Apja-anyja</w>
+						<w xml:id="w8" lemma="furkósbot" pos="NOUN" msd="Case=Ins|Number=Sing" type="furkósbot[/N]=furkósbot+tal[Ins]=tal">furkósbottal</w>
+						<w xml:id="w9" lemma="kerget" pos="VERB" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" type="kerget[/V]=kerget+i[Prs.Def.3Sg]=i">kergeti</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">.</pc>
 					</l>
 				</lg>
 				<p>Csongrád (Csongrád)</p>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="folkSong_06234_1115" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="folkSong_06234_1115" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -98,7 +98,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2022-02-14">level1</change>
-			<change when="2022-02-14">level2</change>
+			<change when="2024-03-04">level2</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -107,35 +107,35 @@
 				<head>[De takaros kis katlan! …]</head>
 				<lg xml:id="lg1">
 					<l xml:id="l1">
-						<w lemma="de" msd="_" pos="CONJ" type="de[/Cnj]=de" xml:id="w1">De</w>
-						<w lemma="takaros" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="takaros[/Adj]=takaros+[Nom]=" xml:id="w2">takaros</w>
-						<w lemma="kis" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="kis[/Adj|Attr]=kis+[Nom]=" xml:id="w3">kis</w>
-						<w lemma="katlan" msd="Case=Nom|Number=Sing" pos="NOUN" type="katlan[/N]=katlan+[Nom]=" xml:id="w4">katlan</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1">!</pc>
+						<w xml:id="w1" lemma="de" pos="CONJ" msd="_" type="de[/Cnj]=de">De</w>
+						<w xml:id="w2" lemma="takaros" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="takaros[/Adj]=takaros+[Nom]=">takaros</w>
+						<w xml:id="w3" lemma="kis" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="kis[/Adj|Attr]=kis+[Nom]=">kis</w>
+						<w xml:id="w4" lemma="katlan" pos="NOUN" msd="Case=Nom|Number=Sing" type="katlan[/N]=katlan+[Nom]=">katlan</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">!</pc>
 					</l>
 					<l xml:id="l2">
-						<w lemma="ő" msd="Case=Sup|Number=Sing|Person=3|PronType=Prs" pos="PRON" type="ő[/N|Pro]=+rajta[Supe]=rajt+a[3Sg]=a" xml:id="w5">Rajta</w>
-						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w6">a</w>
-						<w lemma="sok" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" type="sok[/Num]=sok+[Nom]=" xml:id="w7">sok</w>
-						<w lemma="mosatlan" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="mos[/V]=mos+atlan[_NegPtcp/Adj]=atlan+[Nom]=" xml:id="w8">mosatlan</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2">.</pc>
+						<w xml:id="w5" lemma="ő" pos="PRON" msd="Case=Sup|Number=Sing|Person=3|PronType=Prs" type="ő[/N|Pro]=+rajta[Supe]=rajt+a[3Sg]=a">Rajta</w>
+						<w xml:id="w6" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" type="a[/Det|Art.Def]=a">a</w>
+						<w xml:id="w7" lemma="sok" pos="NUM" msd="Case=Nom|Number=Sing|NumType=Card" type="sok[/Num]=sok+[Nom]=">sok</w>
+						<w xml:id="w8" lemma="mosatlan" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" type="mos[/V]=mos+atlan[_NegPtcp/Adj]=atlan+[Nom]=">mosatlan</w>
+						<pc xml:id="pc2" join="left" pos="PUNCT">.</pc>
 					</l>
 					<l xml:id="l3">
-						<w lemma="mos" msd="Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="mos[/V]=mos+d[Sbjv.Def.2Sg]=d" xml:id="w9">Mosd</w>
-						<w lemma="el" msd="_" pos="ADV" type="el[/Prev]=el" xml:id="w10">el</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3">,</pc>
-						<w lemma="rak" msd="Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="rak[/V]=rak+d[Sbjv.Def.2Sg]=d" xml:id="w11">rakd</w>
-						<w lemma="el" msd="_" pos="ADV" type="el[/Prev]=el" xml:id="w12">el</w>
-						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" type="az[/Det|Art.Def]=az" xml:id="w13">az</w>
-						<w lemma="edény" msd="Case=Acc|Number=Sing" pos="NOUN" type="edény[/N]=edény+t[Acc]=t" xml:id="w14">edényt</w>
-						<pc join="left" pos="PUNCT" xml:id="pc4">,</pc>
+						<w xml:id="w9" lemma="mos" pos="VERB" msd="Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" type="mos[/V]=mos+d[Sbjv.Def.2Sg]=d">Mosd</w>
+						<w xml:id="w10" lemma="el" pos="ADV" msd="_" type="el[/Prev]=el">el</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w11" lemma="rak" pos="VERB" msd="Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" type="rak[/V]=rak+d[Sbjv.Def.2Sg]=d">rakd</w>
+						<w xml:id="w12" lemma="el" pos="ADV" msd="_" type="el[/Prev]=el">el</w>
+						<w xml:id="w13" lemma="az" pos="DET" msd="Definite=Def|PronType=Art" type="az[/Det|Art.Def]=az">az</w>
+						<w xml:id="w14" lemma="edény" pos="NOUN" msd="Case=Acc|Number=Sing" type="edény[/N]=edény+t[Acc]=t">edényt</w>
+						<pc xml:id="pc4" join="left" pos="PUNCT">,</pc>
 					</l>
 					<l xml:id="l4">
-						<w lemma="úgy" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" type="úgy[/Adv|Pro]=úgy" xml:id="w15">Úgy</w>
-						<w lemma="választ" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="választ[/V]=válass+z[Sbjv.NDef.2Sg]=z" xml:id="w16">válassz</w>
-						<w lemma="majd" msd="_" pos="ADV" type="majd[/Adv]=majd" xml:id="w17">majd</w>
-						<w lemma="vőlegény" msd="Case=Acc|Number=Sing" pos="NOUN" type="vő[/N]=vő+legény[/N]=legény+t[Acc]=t" xml:id="w18">vőlegényt</w>
-						<pc join="left" pos="PUNCT" xml:id="pc5">!</pc>
+						<w xml:id="w15" lemma="úgy" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" type="úgy[/Adv|Pro]=úgy">Úgy</w>
+						<w xml:id="w16" lemma="választ" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" type="választ[/V]=válass+z[Sbjv.NDef.2Sg]=z">válassz</w>
+						<w xml:id="w17" lemma="majd" pos="ADV" msd="_" type="majd[/Adv]=majd">majd</w>
+						<w xml:id="w18" lemma="vőlegény" pos="NOUN" msd="Case=Acc|Number=Sing" type="vő[/N]=vő+legény[/N]=legény+t[Acc]=t">vőlegényt</w>
+						<pc xml:id="pc5" join="left" pos="PUNCT">!</pc>
 					</l>
 				</lg>
 				<p>Orosháza (Békés)</p>
