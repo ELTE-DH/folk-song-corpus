@@ -1,4 +1,3 @@
-
 # ELTE Folk Song Corpus
 
 
@@ -116,10 +115,15 @@ By changing the name and the position of certain elements and attributes in leve
 - [Gábor Palkó](https://github.com/luhpeg) (design, data model)
 
 
-# Citing
+# Citing and license
 
 If you use ELTE Folksong Corpus, please cite the following article:
 
 Horváth Péter – Kundráth Péter – Palkó Gábor 2022. ELTE Népdalkorpusz – magyar népdalok gépileg annotált adatbázisa. In: Tick József – Kokas Károly – Holl András (szerk.): Valós térben – Az online térért: Networkshop 31: országos konferencia. Budapest: HUNGARNET Egyesület. 276-283.
+
+The content of the repository is licensed under the [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/) license.
+
+All texts of the corpus are in the public domain.
+
 
 
