@@ -15,7 +15,7 @@ The source of the corpus was the digital version of the book Magyar népdalok (H
 
 1. The HTML files from the Hungarian Electronic Library were converted into TEI XML format based on the [_Text Encoding Initiative_](https://tei-c.org/).
 3. Then, we tokenized the poems and annotated the grammatical features of words by using [_e-magyar_](https://github.com/nytud/emtsv), an NLP tool chain for Hungarian texts. The level2 folder contains the TEI XML files in which the morphosyntactic features (values of the msd attributes) are annotated in the format of universal dependencies, while the level2\_emMorph folder contains the same files in which the morphosyntactic features are annotated in its own, [_emMorph_](https://e-magyar.hu/en/textmodules/emmorph_codelist) format of e-magyar.
-4. After the grammatical annotation, we also annotated the rhyme patterns, the rhyme pairs, the rhythm of lines, the alliterations and the phonological features of words (level3).
+4. After the grammatical annotation, we also annotated the rhyme patterns, the rhyme pairs, the rhythm of lines, the alliterations, the phonological features of words, and the meters of the folk songs (level3).
 5. Finally, we added further annotations of poetic features to the corpus and changed the name and the position of some elements and attributes, using a non-TEI XML format defined for the project (level4).
 
 # Elements and attributes
@@ -37,21 +37,30 @@ The source of the corpus was the digital version of the book Magyar népdalok (H
 - `@msd` : morphosyntactic features ([Universal Dependencies](https://universaldependencies.org/))
 
 
+## Level3_without_meter -- annotation of sound devices without meter
+
+The same as level3 without the `@met` attribute containing the meter of the folk songs. This is the input format of the program Hunpoem\_meter\_analyzer detecting quantitative and qualitative meter in Hungarian poetry.
+
+
 ## Level3 -- annotation of sound devices
 
+- `@met `: meter
+	- `Qual` : qualitative meter based on stressed and unstressed syllables
+	- `Quan` : quantitative meter based on long and short syllables (possible values: iambic, trochaic, dactylic, anapestic)
+	- `QuanScore` : score of quantitative meter (before 0.5, the poem does not really have any intended quantitative meter)
 - `@rhyme `: rhyme pattern
 - `@real `: rhythm (0: short syllable; 1: long syllable)
 - `<spanGrp type="phonStructures">` : standoff annotation of the phonological features of words
 - `<span>` : standoff annotation of the phonological features of a word
 	content of `<span>` : phonological representation of the word
 	- `c`: consonant
-	-  `b`: short back vowel
+	- `b`: short back vowel
 	- `B`: long back vowel
 	- `f`: short front vowel
 	- `F`: long front vowel
 - `@subtype` : syllable number
 - `@type` : type of vowels
-	-  `low`: only back vowels in the word
+	- `low`: only back vowels in the word
 	- `high`: only front vowels in the word
 	- `mixed`: front and back vowels in the word
 - `@target` : the `xml:id` of the annotated word
@@ -62,13 +71,16 @@ The source of the corpus was the digital version of the book Magyar népdalok (H
 - `<span>` : standoff annotation of an alliteration
 - `@target` : `xml:id` of the words in the alliteration
 - `@type` : structure of the alliteration
-	-  `a`: alliterating word
+	- `a`: alliterating word
 	- `n`: non-alliterating word (only one non-alliterating word can be between two alliterating words)
 
 ## Level4 -- conversion of the TEI format into non-TEI format 
 
 By changing the name and the position of certain elements and attributes in level3 and by adding further annotations to the corpus, it is easier to process but cannot be expressed in valid TEI XML format.
 
+- `@met_qual` : qualitative meter based on stressed and unstressed syllables (conversion of level3's `@met` in `<div>`)
+- `@met_quan` : quantitative meter based on long and short syllables, possible values: iambic, trochaic, dactylic, anapestic (conversion of level3's `@met` in `<div>`)
+- `@met_quanScore` : score of quantitative meter, before 0.5, the poem does not really have any intended quantitative meter (conversion of level3's `@met` in `<div>`)
 - `@div_numStanza` : number of stanzas in the poem
 - `@div_numLine `: number of lines in the poem
 - `@div_numWord `: number of words in the poem
